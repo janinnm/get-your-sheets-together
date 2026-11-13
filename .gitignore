@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules/
+/.venv/
+/venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Build and test output
+/coverage/
+/dist/
+/build/
+*.tsbuildinfo
+
+# Logs and operating system files
+*.log
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
