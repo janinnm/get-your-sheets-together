@@ -1,40 +1,14 @@
 import { useState } from "react";
-import type { CostRow } from "../../types/data";
-import {
-  monthlyBreakdown,
-  total,
-  type RentItem,
-} from "../../lib/cost-of-living";
 import { peso } from "../../lib/format";
 import { grossToNet } from "../../lib/payroll";
-import {
-  RentItemPicker,
-  Row,
-  chip,
-  field,
-  label,
-  note,
-  resultCard,
-} from "../ui";
+import { Row, chip, field, label, note, resultCard } from "../ui";
 
-export default function OfferCheck({
-  costs,
-  cities,
-  defaultFrom,
-  defaultTo,
-  rentItem,
-  setRentItem,
-}: {
-  costs: CostRow[];
-  cities: string[];
-  defaultFrom: string;
-  defaultTo: string;
-  rentItem: RentItem;
-  setRentItem: (r: RentItem) => void;
-}) {
+export default function OfferCheck() {
   const [payMode, setPayMode] = useState<"gross" | "net">("gross");
-  const [fromCity, setFromCity] = useState(defaultFrom);
-  const [toCity, setToCity] = useState(defaultTo);
+  // Your own monthly costs (rent, utilities, commute, food) for each option,
+  // e.g. a cheaper place near the current job vs a pricier one near the offer.
+  const [fromCost, setFromCost] = useState(30_000);
+  const [toCost, setToCost] = useState(30_000);
   const [fromPay, setFromPay] = useState(35000);
   const [toPay, setToPay] = useState(60000);
 
@@ -42,8 +16,8 @@ export default function OfferCheck({
   const toPayCalc = grossToNet(toPay);
   const fromTakeHome = payMode === "gross" ? fromPayCalc.net : fromPay;
   const toTakeHome = payMode === "gross" ? toPayCalc.net : toPay;
-  const nowCost = total(monthlyBreakdown(costs, fromCity, rentItem));
-  const offerCost = total(monthlyBreakdown(costs, toCity, rentItem));
+  const nowCost = fromCost;
+  const offerCost = toCost;
   const leftNow = fromTakeHome - nowCost;
   const leftOffer = toTakeHome - offerCost;
   const diff = leftOffer - leftNow;
@@ -51,16 +25,16 @@ export default function OfferCheck({
   const sides = [
     {
       title: "Now",
-      city: fromCity,
-      setCity: setFromCity,
+      cost: fromCost,
+      setCost: setFromCost,
       pay: fromPay,
       setPay: setFromPay,
       bg: "#DDF3FF",
     },
     {
       title: "Offer",
-      city: toCity,
-      setCity: setToCity,
+      cost: toCost,
+      setCost: setToCost,
       pay: toPay,
       setPay: setToPay,
       bg: "#FFE3EA",
@@ -69,7 +43,6 @@ export default function OfferCheck({
 
   return (
     <>
-      <RentItemPicker value={rentItem} onChange={setRentItem} />
       <div className="mb-4 flex flex-wrap gap-2">
         <button
           onClick={() => setPayMode("gross")}
@@ -94,18 +67,6 @@ export default function OfferCheck({
           >
             <p className="mb-2 text-base font-extrabold">{f.title}</p>
             <label className={label}>
-              City
-              <select
-                value={f.city}
-                onChange={(e) => f.setCity(e.target.value)}
-                className={`${field} mb-2 mt-0.5 text-[#1B1340]`}
-              >
-                {cities.map((c) => (
-                  <option key={c}>{c}</option>
-                ))}
-              </select>
-            </label>
-            <label className={label}>
               {payMode === "gross"
                 ? "Gross monthly salary (₱)"
                 : "Monthly take-home (₱)"}
@@ -116,6 +77,19 @@ export default function OfferCheck({
                 value={f.pay}
                 onChange={(e) =>
                   f.setPay(Math.max(0, Number(e.target.value) || 0))
+                }
+                className={`${field} mt-0.5 text-[#1B1340]`}
+              />
+            </label>
+            <label className={`${label} mt-2 block`}>
+              Living costs incl. rent (₱/mo)
+              <input
+                type="number"
+                min={0}
+                step={1000}
+                value={f.cost}
+                onChange={(e) =>
+                  f.setCost(Math.max(0, Number(e.target.value) || 0))
                 }
                 className={`${field} mt-0.5 text-[#1B1340]`}
               />

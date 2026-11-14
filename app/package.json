@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "node -e \"require('node:fs').copyFileSync('node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs', 'public/maplibre-gl-worker.mjs')\"",
-    "data:seed": "../.venv/bin/python ../pipelines/seed_costs.py && ../.venv/bin/python ../pipelines/seed_properties.py",
-    "data:condos": "../.venv/bin/python ../pipelines/enrich_condos.py",
+    "data:scrape": "../.venv/bin/python ../pipelines/scrape_developers.py",
     "data:export": "../.venv/bin/python ../pipelines/export.py",
     "dev": "next dev",
     "build": "next build",

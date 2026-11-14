@@ -1,55 +1,29 @@
 import { z } from "zod";
 
-export const CostRow = z.object({
-  city: z.string(),
-  area: z.string().nullable(),
-  category: z.enum(["rent", "utilities", "transport", "food"]),
-  item: z.string(),
-  value: z.number().nonnegative(),
-  unit: z.string(),
-  source: z.string(),
-  source_url: z.string().nullable(),
-  as_of_date: z.string(),
-});
-
-export const Condo = z.object({
+/** One real project scraped from a developer's website (see pipelines/scrape_developers.py). */
+export const Project = z.object({
   id: z.string(),
   name: z.string(),
-  developer: z.string().nullable(),
+  developer: z.string(),
+  property_type: z.enum(["condo", "townhouse", "house-and-lot", "lot"]),
   city: z.string(),
-  area: z.string(),
+  address: z.string().nullable(),
   lat: z.number(),
   lng: z.number(),
-  price_per_sqm_low: z.number().nullable(),
-  price_per_sqm_high: z.number().nullable(),
-  rent_1br_monthly: z.number().nullable(),
-  turnover_status: z.enum(["ready", "preselling"]).nullable(),
-  source: z.string(),
-  as_of_date: z.string(),
+  /** Total price range for the project's units, when the developer publishes one. */
+  price_low: z.number().positive().nullable(),
+  price_high: z.number().positive().nullable(),
+  /** Advertised starting monthly payment, when that's all that's published. */
+  monthly_from: z.number().positive().nullable(),
+  /** The price exactly as written on the page. */
+  price_text: z.string().nullable(),
+  size_low_sqm: z.number().positive().nullable(),
+  size_high_sqm: z.number().positive().nullable(),
+  status: z.enum(["ready", "preselling"]).nullable(),
+  turnover: z.string().nullable(),
   image_url: z.string().nullable(),
-  image_credit: z.string().nullable(),
-  image_license: z.string().nullable(),
-  image_page: z.string().nullable(),
+  source_url: z.string(),
+  scraped_at: z.string(),
 });
 
-export const Property = z.object({
-  id: z.string(),
-  name: z.string(),
-  property_type: z.enum(["townhouse", "house-and-lot", "lot"]),
-  city: z.string(),
-  area: z.string(),
-  lat: z.number(),
-  lng: z.number(),
-  price_low: z.number().positive(),
-  price_high: z.number().positive(),
-  lot_area_sqm: z.number().positive(),
-  floor_area_sqm: z.number().positive().nullable(),
-  rent_monthly: z.number().nonnegative().nullable(),
-  turnover_status: z.enum(["ready", "preselling"]).nullable(),
-  source: z.string(),
-  as_of_date: z.string(),
-});
-
-export type CostRow = z.infer<typeof CostRow>;
-export type Condo = z.infer<typeof Condo>;
-export type Property = z.infer<typeof Property>;
+export type Project = z.infer<typeof Project>;

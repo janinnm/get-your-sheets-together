@@ -28,3 +28,6 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Scraper page cache
+.cache/

@@ -1,11 +1,9 @@
 import type { RefObject } from "react";
 import { peso, short } from "../../lib/format";
 import {
-  CONDO_SQM,
   KINDS,
   KIND_EMOJI,
   KIND_LABEL,
-  grossYield,
   type Kind,
   type Listing,
 } from "../../lib/listings";
@@ -24,7 +22,8 @@ export function matches(l: Listing, f: Filters) {
   return (
     f.kinds.has(l.kind) &&
     (f.status === "all" || l.status === f.status) &&
-    (f.budget === null || l.price <= f.budget)
+    // A budget filter keeps only projects with a published price under it.
+    (f.budget === null || (l.priceLow !== null && l.priceLow <= f.budget))
   );
 }
 
@@ -47,7 +46,7 @@ export default function PropertiesTab({
   onSelect: (l: Listing) => void;
   onBuy: (l: Listing) => void;
   cardRefs: RefObject<Record<string, HTMLElement | null>>;
-  color: (city: string) => string;
+  color: (developer: string) => string;
 }) {
   function toggleKind(k: Kind) {
     const kinds = new Set(filters.kinds);
@@ -101,7 +100,7 @@ export default function PropertiesTab({
       </div>
 
       <p className="mb-3 text-sm font-semibold text-[#1B1340]/70">
-        {visible.length} properties in this map area
+        {visible.length} projects in this map area
       </p>
 
       {visible.length === 0 && (
@@ -115,7 +114,7 @@ export default function PropertiesTab({
           key={l.id}
           listing={l}
           active={activeId(l.id)}
-          color={color(l.city)}
+          color={color(l.developer)}
           ref={(el) => {
             cardRefs.current[l.id] = el;
           }}
@@ -145,16 +144,11 @@ function ListingCard({
   onBuy: () => void;
   onHover: (on: boolean) => void;
 }) {
-  const y = grossYield(l);
-  const size =
-    l.kind === "condo"
-      ? `for ${CONDO_SQM} sqm`
-      : [
-          l.lotArea && `${l.lotArea} sqm lot`,
-          l.floorArea && `${l.floorArea} sqm floor`,
-        ]
-          .filter(Boolean)
-          .join(", ");
+  const sizes =
+    l.sizeLow &&
+    (l.sizeHigh && l.sizeHigh > l.sizeLow
+      ? `${l.sizeLow}–${l.sizeHigh} sqm`
+      : `${l.sizeLow} sqm`);
 
   return (
     <article
@@ -171,7 +165,7 @@ function ListingCard({
       {l.image ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={l.image.url}
+          src={l.image}
           alt={l.name}
           loading="lazy"
           className="h-32 w-full border-b-2 border-[#1B1340] object-cover"
@@ -188,7 +182,7 @@ function ListingCard({
             {KIND_EMOJI[l.kind]}
           </span>
           <span className="relative rounded-full border-2 border-[#1B1340] bg-white px-2.5 py-0.5 text-xs font-extrabold">
-            {l.area}
+            {l.city}
           </span>
         </div>
       )}
@@ -212,25 +206,33 @@ function ListingCard({
           </div>
         </div>
         <p className="text-sm font-semibold text-[#1B1340]/60">
-          {l.area}, {l.city}
+          {l.developer} · {l.city}
         </p>
 
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <span className="rounded-lg border-2 border-[#1B1340] bg-[#FFF3C4] px-2 py-1 text-sm font-extrabold">
-            {short(l.price)}{" "}
-            <span className="text-xs font-semibold">{size}</span>
+            {l.priceLow
+              ? l.priceHigh && l.priceHigh > l.priceLow
+                ? `${short(l.priceLow)} – ${short(l.priceHigh)}`
+                : `From ${short(l.priceLow)}`
+              : "Price on request"}
           </span>
-          {l.rentMonthly && (
+          {l.monthlyFrom && (
             <span className="rounded-lg border-2 border-[#1B1340] bg-[#DDF3FF] px-2 py-1 text-sm font-bold">
-              {peso(l.rentMonthly)}/mo rent
+              Ads: from {peso(l.monthlyFrom)}/mo
             </span>
           )}
-          {y !== null && (
-            <span className="rounded-lg border-2 border-[#1B1340] bg-[#BEF264] px-2 py-1 text-sm font-extrabold">
-              {y.toFixed(1)}% yield
+          {sizes && (
+            <span className="rounded-lg border-2 border-[#1B1340] bg-white px-2 py-1 text-sm font-bold">
+              {sizes}
             </span>
           )}
         </div>
+        {l.turnover && (
+          <p className="mt-2 text-xs font-semibold text-[#1B1340]/60">
+            Turnover: {l.turnover}
+          </p>
+        )}
 
         <button
           onClick={(e) => {
@@ -243,14 +245,19 @@ function ListingCard({
         </button>
 
         <p className="mt-3 text-[11px] leading-snug text-[#1B1340]/50">
-          {l.source}, {l.asOf}
+          From{" "}
+          <a
+            href={l.url}
+            target="_blank"
+            rel="noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="underline"
+          >
+            {new URL(l.url).hostname.replace(/^www\./, "")}
+          </a>
+          , {l.scrapedAt}
+          {l.image && ". Photo from the developer's site"}
         </p>
-        {l.image?.credit && (
-          <p className="text-[10px] text-[#1B1340]/40">
-            Photo: {l.image.credit}
-            {l.image.license && `, ${l.image.license}`}
-          </p>
-        )}
       </div>
     </article>
   );
