@@ -1,15 +1,25 @@
 import { useState } from "react";
-import { peso, short } from "../../lib/format";
+import { compact, pct, peso, short } from "../../lib/format";
 import { grossToNet } from "../../lib/payroll";
 import {
   assess,
   maxAffordablePrice,
   rateShock,
-  rentVsBuy,
   DEFAULT_CLOSING_COST_RATE,
   DEFAULT_RENT_VS_BUY,
+  similarRent,
   type Verdict,
 } from "../../lib/mortgage";
+import {
+  ALTERNATIVES,
+  ALTERNATIVE_IDS,
+  PROFILE_ALTERNATIVE,
+  isVolatile,
+  rentVsBuyReason,
+  rentVsBuyScenarios,
+  type AlternativeId,
+  type ReturnRange,
+} from "../../lib/alternatives";
 import {
   KINDS,
   KIND_EMOJI,
@@ -117,9 +127,15 @@ export default function BuyCheck({
   const [rentGrowthPct, setRentGrowthPct] = useState(
     DEFAULT_RENT_VS_BUY.rentGrowth * 100,
   );
+  // Where the renter's money goes instead; follows the risk profile until changed.
+  const [alt, setAlt] = useState<AlternativeId | "custom">(
+    PROFILE_ALTERNATIVE.balanced,
+  );
   const [investPct, setInvestPct] = useState(
     DEFAULT_RENT_VS_BUY.investReturn * 100,
   );
+  // Rent for a place like this one; follows the price until the user types one.
+  const [compRentInput, setCompRentInput] = useState<number | null>(null);
 
   // Reset type-specific inputs when a different listing is picked
   // (React's "adjust state when a prop changes" pattern).
@@ -134,6 +150,7 @@ export default function BuyCheck({
     setYears(d.years);
     setDues(d.dues);
     setApprPct(d.appr);
+    setCompRentInput(null);
   }
 
   const kind = KIND_DEFAULTS[listing.kind];
@@ -186,19 +203,32 @@ export default function BuyCheck({
   });
   const verdict = finalVerdict(r.verdict, flags);
 
-  const rvb = kind.housesYou
-    ? rentVsBuy({
-        terms: { ...terms, price },
-        monthlyRent: rent,
-        otherOwnershipCosts: other,
-        assumptions: {
-          horizonYears: horizon,
-          appreciation: apprPct / 100,
-          rentGrowth: rentGrowthPct / 100,
-          investReturn: investPct / 100,
+  const altInfo = alt === "custom" ? null : ALTERNATIVES[alt];
+  const altReturns: ReturnRange = altInfo
+    ? altInfo.returns
+    : {
+        low: investPct / 100,
+        expected: investPct / 100,
+        high: investPct / 100,
+      };
+  const compRent = compRentInput ?? similarRent(price);
+  const scenarios = kind.housesYou
+    ? rentVsBuyScenarios(
+        {
+          terms: { ...terms, price },
+          monthlyRent: compRent,
+          otherOwnershipCosts: other,
+          assumptions: {
+            horizonYears: horizon,
+            appreciation: apprPct / 100,
+            rentGrowth: rentGrowthPct / 100,
+          },
         },
-      })
+        altReturns,
+      )
     : null;
+  const investLabel = altInfo?.label ?? "Your investment";
+  const rvb = scenarios?.expected;
   const rvbLast = rvb?.years[rvb.years.length - 1];
 
   // ---------- inputs ----------
@@ -285,8 +315,11 @@ export default function BuyCheck({
       onChange: setRentGrowthPct,
       step: 0.5,
     },
+  ];
+
+  const customRateInput: NumberInput[] = [
     {
-      label: "Investment return (%/yr)",
+      label: "Your return (%/yr, after tax)",
       value: investPct,
       onChange: setInvestPct,
       step: 0.5,
@@ -301,7 +334,10 @@ export default function BuyCheck({
         {(Object.keys(PROFILES) as Profile[]).map((p) => (
           <button
             key={p}
-            onClick={() => setProfile(p)}
+            onClick={() => {
+              setProfile(p);
+              setAlt(PROFILE_ALTERNATIVE[p]);
+            }}
             className={chip(profile === p)}
           >
             {PROFILES[p].label}
@@ -549,15 +585,53 @@ export default function BuyCheck({
         )}
 
         {/* Rent vs buy */}
-        <h3 className="mt-6 text-lg font-extrabold">🏠 Rent or buy?</h3>
-        {rvb && rvbLast ? (
+        <h3 className="mt-6 text-lg font-extrabold">
+          🏠 Buy, or rent and invest?
+        </h3>
+        {scenarios && rvb && rvbLast ? (
           <>
-            <p className={`mb-2 ${label}`}>
-              Compares your net worth after {horizon} years. The renter invests
-              the upfront cash instead, and whoever pays less each month invests
-              the difference.
-            </p>
-            <NumberFields fields={rentVsBuyInputs} />
+            <p className={label}>If you rent, invest in</p>
+            <div className="mb-1 flex flex-wrap gap-2">
+              {ALTERNATIVE_IDS.map((id) => (
+                <button
+                  key={id}
+                  onClick={() => setAlt(id)}
+                  className={chip(alt === id)}
+                >
+                  {ALTERNATIVES[id].emoji} {ALTERNATIVES[id].label}
+                </button>
+              ))}
+              <button
+                onClick={() => setAlt("custom")}
+                className={chip(alt === "custom")}
+              >
+                ✏️ My own rate
+              </button>
+            </div>
+            {altInfo && (
+              <p className={`mb-3 ${note}`}>
+                {altInfo.blurb} ~{pct(altInfo.returns.expected)}/yr after tax.
+                {altInfo.lockInYears > horizon &&
+                  ` Locked in for ${altInfo.lockInYears} yrs.`}
+              </p>
+            )}
+            <NumberFields
+              fields={[
+                {
+                  label: "Rent for a similar place (₱/mo)",
+                  value: compRent,
+                  onChange: setCompRentInput,
+                  step: 1000,
+                },
+                ...(alt === "custom" ? customRateInput : []),
+              ]}
+            />
+            {compRentInput === null && (
+              <p className={`mt-1 ${note}`}>
+                Estimated at 5% of the price a year. Check listings nearby.
+              </p>
+            )}
+
             <div
               className="mt-4 rounded-2xl border-2 border-[#1B1340] p-4 shadow-[3px_3px_0_0_#1B1340]"
               style={{ background: rvb.advantage >= 0 ? "#BEF264" : "#DDF3FF" }}
@@ -565,34 +639,126 @@ export default function BuyCheck({
             >
               <p className="text-2xl font-black">
                 {rvb.advantage >= 0 ? "Buying" : "Renting"} wins by{" "}
-                {peso(Math.abs(rvb.advantage))}
+                {compact(Math.abs(rvb.advantage))}
               </p>
-              <p className="mt-1 text-sm font-semibold">
-                {rvb.breakEvenYear
-                  ? `Buying pulls ahead in year ${rvb.breakEvenYear}.`
-                  : `Buying doesn't pull ahead within ${horizon} years.`}
+              <p className="text-sm font-semibold">
+                after {horizon} years, if you invest the difference every month
               </p>
-              <div className="mt-3 grid grid-cols-2 gap-2 text-xs font-semibold">
-                <div className="rounded-lg border-2 border-[#1B1340] bg-white p-2">
-                  Buyer net worth
-                  <b className="block text-base">
-                    {peso(rvbLast.buyerNetWorth)}
-                  </b>
-                </div>
-                <div className="rounded-lg border-2 border-[#1B1340] bg-white p-2">
-                  Renter net worth
-                  <b className="block text-base">
-                    {peso(rvbLast.renterNetWorth)}
-                  </b>
-                </div>
+              <p className="mt-2 text-sm font-semibold">
+                {rentVsBuyReason({
+                  price,
+                  monthlyRent: compRent,
+                  loanRate: rate / 100,
+                  appreciation: apprPct / 100,
+                  investReturn: altReturns.expected,
+                  investLabel,
+                  advantage: rvb.advantage,
+                })}
+                {rvb.advantage >= 0 &&
+                  rvb.breakEvenYear &&
+                  ` Pulls ahead in year ${rvb.breakEvenYear}.`}
+              </p>
+              {isVolatile(altReturns) && (
+                <p className="mt-1 text-xs font-semibold">
+                  At {pct(altReturns.low)}/yr: {ahead(scenarios.low.advantage)}.
+                  At {pct(altReturns.high)}/yr:{" "}
+                  {ahead(scenarios.high.advantage)}.
+                </p>
+              )}
+              {fixedYears < years && (
+                <p className="mt-1 text-xs font-semibold">
+                  Assumes the loan rate stays {pct(rate / 100)} after the{" "}
+                  {fixedYears}-yr fixed period. If it rises, renting looks
+                  better.
+                </p>
+              )}
+            </div>
+
+            {/* Where the money goes, side by side */}
+            <div className="mt-3 grid grid-cols-1 gap-3 text-xs font-semibold sm:grid-cols-2">
+              <div className="rounded-2xl border-2 border-[#1B1340] bg-white p-3">
+                <p className="mb-1 text-sm font-extrabold">🔑 Buy</p>
+                <Row label="Upfront" value={compact(rvb.breakdown.upfront)} />
+                <Row label="Monthly" value={peso(rvb.breakdown.ownCostStart)} />
+                <Row
+                  label="Place worth"
+                  value={compact(rvb.breakdown.propertyValue)}
+                />
+                <Row
+                  label="Loan still owed"
+                  value={`−${compact(rvb.breakdown.loanLeft)}`}
+                />
+                <Row
+                  label="Selling costs (tax, broker)"
+                  value={`−${compact(rvb.breakdown.sellingCosts)}`}
+                />
+                {rvb.breakdown.buyerInvestments > 0 && (
+                  <Row
+                    label="Invested savings"
+                    value={`+${compact(rvb.breakdown.buyerInvestments)}`}
+                  />
+                )}
+                <Row
+                  label="You'd have"
+                  value={compact(rvbLast.buyerNetWorth)}
+                  total
+                />
+              </div>
+              <div className="rounded-2xl border-2 border-[#1B1340] bg-white p-3">
+                <p className="mb-1 text-sm font-extrabold">🏠 Rent + invest</p>
+                <Row
+                  label="Monthly rent"
+                  value={peso(rvb.breakdown.rentStart)}
+                />
+                <Row
+                  label="Invested at start"
+                  value={compact(rvb.breakdown.upfront)}
+                />
+                {rvb.breakdown.renterMonthlyStart > 0 &&
+                  (Math.abs(
+                    rvb.breakdown.renterMonthlyStart -
+                      rvb.breakdown.renterMonthlyEnd,
+                  ) < 500 ? (
+                    <Row
+                      label="Invested monthly"
+                      value={compact(rvb.breakdown.renterMonthlyStart)}
+                    />
+                  ) : (
+                    <>
+                      <Row
+                        label="Invested/mo in year 1"
+                        value={compact(rvb.breakdown.renterMonthlyStart)}
+                      />
+                      <Row
+                        label={`Invested/mo by year ${horizon}`}
+                        value={compact(rvb.breakdown.renterMonthlyEnd)}
+                      />
+                    </>
+                  ))}
+                <Row
+                  label="Total put in"
+                  value={compact(rvb.breakdown.renterPaidIn)}
+                />
+                <Row
+                  label="You'd have"
+                  value={compact(rvbLast.renterNetWorth)}
+                  total
+                />
               </div>
             </div>
+
+            <details className="mt-3 rounded-2xl border-2 border-[#1B1340] bg-white p-3">
+              <summary className="cursor-pointer text-sm font-extrabold">
+                Change assumptions
+              </summary>
+              <div className="mt-2">
+                <NumberFields fields={rentVsBuyInputs} />
+              </div>
+            </details>
           </>
         ) : (
           <p className="text-sm font-semibold">
-            A lot doesn&apos;t replace your rent, so this comparison
-            doesn&apos;t apply. Your rent is already counted in your monthly
-            costs above.
+            A lot doesn&apos;t replace your rent, so this doesn&apos;t apply.
           </p>
         )}
 
@@ -603,13 +769,17 @@ export default function BuyCheck({
           {listing.kind === "house-and-lot" || listing.kind === "townhouse"
             ? " plus maintenance"
             : ""}
-          . Selling costs in the rent vs buy comparison are about 10% (6%
+          . Selling costs in the buy vs rent comparison are about 10% (6%
           capital gains tax plus broker fees). Prices are as published on{" "}
           {listing.developer}&apos;s site on {listing.scrapedAt}.
         </p>
       </>
     );
   }
+}
+
+function ahead(advantage: number) {
+  return `${advantage >= 0 ? "buying" : "renting"} wins by ${compact(Math.abs(advantage))}`;
 }
 
 function priceRange(l: Listing) {
