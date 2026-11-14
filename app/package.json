@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "postinstall": "node -e \"require('node:fs').copyFileSync('node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs', 'public/maplibre-gl-worker.mjs')\"",
-    "seed:placeholder": "python ../pipelines/seed_placeholder.py",
+    "data:seed": "../.venv/bin/python ../pipelines/seed_costs.py && ../.venv/bin/python ../pipelines/seed_properties.py",
+    "data:condos": "../.venv/bin/python ../pipelines/enrich_condos.py",
+    "data:export": "../.venv/bin/python ../pipelines/export.py",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -15,7 +17,8 @@
     "next": "16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "react-map-gl": "^8.1.3"
+    "react-map-gl": "^8.1.3",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",

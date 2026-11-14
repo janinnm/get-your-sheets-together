@@ -2,6 +2,9 @@ import type { CostRow } from "../types/data";
 
 const KWH_PER_MONTH = 150; // single-person assumption
 
+export const RENT_ITEMS = ["1BR condo", "Bedspace"] as const;
+export type RentItem = (typeof RENT_ITEMS)[number];
+
 export type Breakdown = {
   city: string;
   Rent: number;
@@ -16,7 +19,7 @@ export const total = (b: Breakdown) =>
 export function monthlyBreakdown(
   rows: CostRow[],
   city: string,
-  rentItem: string = "1BR condo",
+  rentItem: RentItem = "1BR condo",
 ): Breakdown {
   const get = (category: string, item: string) =>
     rows.find(

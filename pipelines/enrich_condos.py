@@ -8,7 +8,7 @@ from pathlib import Path
 
 import requests
 
-OUT = Path("data/processed/condos.csv")
+OUT = Path(__file__).resolve().parents[1] / "data" / "processed" / "condos.csv"
 HEADERS = {"User-Agent": "ph-cost-of-living/0.1 (personal project; contact: you@example.com)"}  # use your email
 AS_OF = "2026-11-01"
 SOURCE = "PLACEHOLDER: area estimate, not this project's real price"
