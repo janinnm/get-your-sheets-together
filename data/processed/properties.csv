@@ -1,0 +1,13 @@
+id,name,property_type,city,area,lat,lng,price_low,price_high,lot_area_sqm,floor_area_sqm,rent_monthly,turnover_status,source,as_of_date
+th-qc-001,Townhouse in Teachers Village,townhouse,Quezon City,Teachers Village,14.642,121.061,12000000.0,14000000.0,60.0,120.0,35000.0,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+hl-qc-001,House and lot in Fairview,house-and-lot,Quezon City,Fairview,14.705,121.07,9000000.0,11000000.0,120.0,150.0,30000.0,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+lt-qc-001,Residential lot in Commonwealth,lot,Quezon City,Commonwealth,14.695,121.088,8000000.0,10000000.0,200.0,,,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+th-pas-001,Townhouse in Kapitolyo,townhouse,Pasig,Kapitolyo,14.572,121.059,15000000.0,18000000.0,70.0,140.0,45000.0,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+hl-pas-001,House and lot in Rosario,house-and-lot,Pasig,Rosario,14.588,121.089,11000000.0,13000000.0,100.0,160.0,32000.0,preselling,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+hl-mkt-001,House in San Antonio Village,house-and-lot,Makati,San Antonio,14.568,121.011,28000000.0,32000000.0,150.0,250.0,80000.0,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+hl-par-001,House and lot in BF Homes,house-and-lot,Parañaque,BF Homes,14.453,121.025,18000000.0,22000000.0,200.0,220.0,55000.0,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+th-lpn-001,Townhouse in Pamplona,townhouse,Las Piñas,Pamplona,14.45,120.982,6500000.0,7500000.0,50.0,90.0,20000.0,preselling,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+lt-lpn-001,Residential lot in BF Resort,lot,Las Piñas,BF Resort,14.433,120.996,5000000.0,6000000.0,150.0,,,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+hl-mun-001,House and lot in Tunasan,house-and-lot,Muntinlupa,Tunasan,14.38,121.042,5500000.0,6500000.0,80.0,70.0,15000.0,preselling,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+lt-mun-001,Residential lot in Cupang,lot,Muntinlupa,Cupang,14.438,121.048,9000000.0,11000000.0,180.0,,,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01
+th-man-001,Townhouse in Hulo,townhouse,Mandaluyong,Hulo,14.572,121.04,9500000.0,11000000.0,55.0,110.0,28000.0,ready,"PLACEHOLDER: area estimate, not a real listing",2026-11-01

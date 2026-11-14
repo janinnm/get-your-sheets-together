@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { costs, condos } from "../lib/data";
+import { costs, listings } from "../lib/data";
 
 const Explorer = dynamic(() => import("../components/Explorer"), {
   ssr: false,
@@ -9,5 +9,5 @@ const Explorer = dynamic(() => import("../components/Explorer"), {
 });
 
 export default function Home() {
-  return <Explorer costs={costs} condos={condos} />;
+  return <Explorer costs={costs} listings={listings} />;
 }

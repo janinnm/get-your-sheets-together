@@ -32,5 +32,24 @@ export const Condo = z.object({
   image_page: z.string().nullable(),
 });
 
+export const Property = z.object({
+  id: z.string(),
+  name: z.string(),
+  property_type: z.enum(["townhouse", "house-and-lot", "lot"]),
+  city: z.string(),
+  area: z.string(),
+  lat: z.number(),
+  lng: z.number(),
+  price_low: z.number().positive(),
+  price_high: z.number().positive(),
+  lot_area_sqm: z.number().positive(),
+  floor_area_sqm: z.number().positive().nullable(),
+  rent_monthly: z.number().nonnegative().nullable(),
+  turnover_status: z.enum(["ready", "preselling"]).nullable(),
+  source: z.string(),
+  as_of_date: z.string(),
+});
+
 export type CostRow = z.infer<typeof CostRow>;
 export type Condo = z.infer<typeof Condo>;
+export type Property = z.infer<typeof Property>;
