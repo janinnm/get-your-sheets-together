@@ -1,4 +1,4 @@
-"""Validates data/processed/*.csv and writes them as JSON to app/data/ for the web app."""
+"""Validates data/processed/projects.csv and writes the Metro Manila projects to app/data/projects.json."""
 from pathlib import Path
 
 import pandas as pd
@@ -8,63 +8,44 @@ ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data" / "processed"
 OUT = ROOT / "app" / "data"
 
-costs_schema = pa.DataFrameSchema({
-    "city": pa.Column(str),
-    "area": pa.Column(str, nullable=True),
-    "category": pa.Column(str, pa.Check.isin(["rent", "utilities", "transport", "food"])),
-    "item": pa.Column(str),
-    "value": pa.Column(float, pa.Check.ge(0)),
-    "unit": pa.Column(str),
-    "source": pa.Column(str),
-    "source_url": pa.Column(str, nullable=True),
-    "as_of_date": pa.Column(str),
-})
+KINDS = ["condo", "townhouse", "house-and-lot", "lot"]
+TEXT = {"nullable": True, "coerce": True}
 
-condos_schema = pa.DataFrameSchema({
+projects_schema = pa.DataFrameSchema({
     "id": pa.Column(str, unique=True),
     "name": pa.Column(str),
-    "developer": pa.Column(str, nullable=True, coerce=True),
+    "developer": pa.Column(str),
+    "property_type": pa.Column(str, pa.Check.isin(KINDS)),
     "city": pa.Column(str),
-    "area": pa.Column(str),
-    "lat": pa.Column(float, pa.Check.in_range(4, 22)),
-    "lng": pa.Column(float, pa.Check.in_range(116, 127)),
-    "price_per_sqm_low": pa.Column(float, nullable=True),
-    "price_per_sqm_high": pa.Column(float, nullable=True),
-    "rent_1br_monthly": pa.Column(float, nullable=True),
-    "turnover_status": pa.Column(str, pa.Check.isin(["ready", "preselling"]), nullable=True),
-    "source": pa.Column(str),
-    "as_of_date": pa.Column(str),
-    "image_url": pa.Column(str, nullable=True, coerce=True),
-    "image_credit": pa.Column(str, nullable=True, coerce=True),
-    "image_license": pa.Column(str, nullable=True, coerce=True),
-    "image_page": pa.Column(str, nullable=True, coerce=True),
-})
+    "address": pa.Column(str, **TEXT),
+    "lat": pa.Column(float, pa.Check.in_range(14.3, 14.8)),  # Metro Manila
+    "lng": pa.Column(float, pa.Check.in_range(120.9, 121.2)),
+    "price_low": pa.Column(float, pa.Check.ge(100_000), nullable=True),
+    "price_high": pa.Column(float, pa.Check.ge(100_000), nullable=True),
+    "monthly_from": pa.Column(float, pa.Check.in_range(1_000, 1_000_000), nullable=True),
+    "price_text": pa.Column(str, **TEXT),
+    "size_low_sqm": pa.Column(float, pa.Check.gt(0), nullable=True),
+    "size_high_sqm": pa.Column(float, pa.Check.gt(0), nullable=True),
+    "status": pa.Column(str, pa.Check.isin(["ready", "preselling"]), nullable=True),
+    "turnover": pa.Column(str, **TEXT),
+    "image_url": pa.Column(str, **TEXT),
+    "source_url": pa.Column(str),
+    "scraped_at": pa.Column(str),
+}, checks=pa.Check(
+    lambda df: df["price_low"].isna() | (df["price_low"] <= df["price_high"]),
+    error="price_low > price_high",
+))
 
-properties_schema = pa.DataFrameSchema({
-    "id": pa.Column(str, unique=True),
-    "name": pa.Column(str),
-    "property_type": pa.Column(str, pa.Check.isin(["townhouse", "house-and-lot", "lot"])),
-    "city": pa.Column(str),
-    "area": pa.Column(str),
-    "lat": pa.Column(float, pa.Check.in_range(4, 22)),
-    "lng": pa.Column(float, pa.Check.in_range(116, 127)),
-    "price_low": pa.Column(float, pa.Check.gt(0)),
-    "price_high": pa.Column(float, pa.Check.gt(0)),
-    "lot_area_sqm": pa.Column(float, pa.Check.gt(0)),
-    "floor_area_sqm": pa.Column(float, pa.Check.gt(0), nullable=True),
-    "rent_monthly": pa.Column(float, pa.Check.ge(0), nullable=True),
-    "turnover_status": pa.Column(str, pa.Check.isin(["ready", "preselling"]), nullable=True),
-    "source": pa.Column(str),
-    "as_of_date": pa.Column(str),
-}, checks=pa.Check(lambda df: df["price_low"] <= df["price_high"], error="price_low > price_high"))
 
-def export(name: str, schema: pa.DataFrameSchema):
-    df = pd.read_csv(PROCESSED / f"{name}.csv")
-    schema.validate(df)  # fails loudly on bad data
+def export_projects():
+    df = pd.read_csv(PROCESSED / "projects.csv")
+    # The app covers Metro Manila; the scraper's city is set only for points inside it.
+    ncr = df[df["city"].notna() & df["lat"].notna() & df["property_type"].notna()].copy()
+    ncr = projects_schema.validate(ncr)  # fails loudly on bad data
     OUT.mkdir(parents=True, exist_ok=True)
-    df.to_json(OUT / f"{name}.json", orient="records", indent=2)
+    ncr.to_json(OUT / "projects.json", orient="records", indent=2, force_ascii=False)
+    print(f"Exported {len(ncr)} of {len(df)} projects (Metro Manila only)")
+
 
 if __name__ == "__main__":
-    export("costs", costs_schema)
-    export("condos", condos_schema)
-    export("properties", properties_schema)
+    export_projects()

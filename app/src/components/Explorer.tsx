@@ -8,53 +8,31 @@ import Map, {
   type MapRef,
 } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { CostRow } from "../types/data";
-import { monthlyBreakdown, total, type RentItem } from "../lib/cost-of-living";
 import { short } from "../lib/format";
 import { KINDS, KIND_EMOJI, KIND_LABEL, type Listing } from "../lib/listings";
 import { INK } from "./ui";
 import Logo from "./Logo";
 import PropertiesTab, { matches, type Filters } from "./tabs/PropertiesTab";
-import CostsTab from "./tabs/CostsTab";
 import OfferCheck from "./tabs/OfferCheck";
 import BuyCheck from "./tabs/BuyCheck";
 
 setWorkerUrl("/maplibre-gl-worker.mjs");
 
 const STYLE = "https://tiles.openfreemap.org/styles/liberty"; // free, no API key
-const PALETTE = [
-  "#FF8FA3",
-  "#A78BFA",
-  "#FFB84D",
-  "#5EEAD4",
-  "#7DD3FC",
-  "#BEF264",
-  "#F9A8D4",
-  "#FDE047",
-  "#86EFAC",
-  "#A5B4FC",
-];
+const PALETTE = ["#FF8FA3", "#7DD3FC", "#BEF264", "#FFB84D", "#A78BFA"];
 
-type Tab = "homes" | "costs" | "offer" | "buy";
+type Tab = "homes" | "offer" | "buy";
 const TABS: [Tab, string, string][] = [
   ["homes", "Properties", "🏘️"],
-  ["costs", "Living costs", "💸"],
   ["offer", "Offer check", "🧮"],
   ["buy", "Can I buy?", "🔑"],
 ];
 
-export default function Explorer({
-  costs,
-  listings,
-}: {
-  costs: CostRow[];
-  listings: Listing[];
-}) {
+export default function Explorer({ listings }: { listings: Listing[] }) {
   const mapRef = useRef<MapRef>(null);
   const cardRefs = useRef<Record<string, HTMLElement | null>>({});
 
   const [tab, setTab] = useState<Tab>("homes");
-  const [rentItem, setRentItem] = useState<RentItem>("1BR condo");
   const [hovered, setHovered] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [bounds, setBounds] = useState<LngLatBounds | null>(null);
@@ -65,36 +43,22 @@ export default function Explorer({
   });
   const [buyId, setBuyId] = useState(listings[0]?.id ?? "");
 
-  const cities = useMemo(() => [...new Set(costs.map((r) => r.city))], [costs]);
-  const cityColor = useMemo(
+  const developers = useMemo(
+    () => [...new Set(listings.map((l) => l.developer))].sort(),
+    [listings],
+  );
+  const devColor = useMemo(
     () =>
       Object.fromEntries(
-        cities.map((c, i) => [c, PALETTE[i % PALETTE.length]]),
+        developers.map((d, i) => [d, PALETTE[i % PALETTE.length]]),
       ),
-    [cities],
+    [developers],
   );
-  const color = (city: string) => cityColor[city] ?? "#E5E7EB";
-
-  const breakdowns = useMemo(
-    () =>
-      cities
-        .map((c) => monthlyBreakdown(costs, c, rentItem))
-        .sort((a, b) => total(a) - total(b)),
-    [cities, costs, rentItem],
+  const color = (developer: string) => devColor[developer] ?? "#E5E7EB";
+  const scrapedAt = useMemo(
+    () => listings.reduce((m, l) => (l.scrapedAt > m ? l.scrapedAt : m), ""),
+    [listings],
   );
-
-  const cityCenters = useMemo(() => {
-    const out: Record<string, [number, number]> = {};
-    for (const city of cities) {
-      const ls = listings.filter((l) => l.city === city);
-      if (ls.length)
-        out[city] = [
-          ls.reduce((s, l) => s + l.lng, 0) / ls.length,
-          ls.reduce((s, l) => s + l.lat, 0) / ls.length,
-        ];
-    }
-    return out;
-  }, [cities, listings]);
 
   const filtered = useMemo(
     () => listings.filter((l) => matches(l, filters)),
@@ -139,11 +103,6 @@ export default function Explorer({
     setTab("buy");
   }
 
-  function flyToCity(city: string) {
-    const center = cityCenters[city];
-    if (center) mapRef.current?.flyTo({ center, zoom: 12, duration: 900 });
-  }
-
   // Tabs stay mounted (just hidden) so inputs survive switching tabs.
   const panels: Record<Tab, ReactNode> = {
     homes: (
@@ -159,32 +118,9 @@ export default function Explorer({
         color={color}
       />
     ),
-    costs: (
-      <CostsTab
-        breakdowns={breakdowns}
-        rentItem={rentItem}
-        setRentItem={setRentItem}
-        color={color}
-        onCity={flyToCity}
-      />
-    ),
-    offer: (
-      <OfferCheck
-        costs={costs}
-        cities={cities}
-        defaultFrom={breakdowns[0]?.city ?? ""}
-        defaultTo={breakdowns[breakdowns.length - 1]?.city ?? ""}
-        rentItem={rentItem}
-        setRentItem={setRentItem}
-      />
-    ),
+    offer: <OfferCheck />,
     buy: listings.length > 0 && (
-      <BuyCheck
-        listings={listings}
-        costs={costs}
-        listingId={buyId}
-        onPick={setBuyId}
-      />
+      <BuyCheck listings={listings} listingId={buyId} onPick={setBuyId} />
     ),
   };
 
@@ -220,13 +156,13 @@ export default function Explorer({
                   }}
                   onMouseEnter={() => setHovered(l.id)}
                   onMouseLeave={() => setHovered(null)}
-                  aria-label={`${KIND_LABEL[l.kind]}: ${l.name}, ${short(l.price)}`}
-                  style={{ background: active ? INK : color(l.city) }}
+                  aria-label={`${KIND_LABEL[l.kind]}: ${l.name}, ${l.priceLow ? `from ${short(l.priceLow)}` : "price on request"}`}
+                  style={{ background: active ? INK : color(l.developer) }}
                   className={`rounded-full border-2 border-[#1B1340] px-3 py-1 text-sm font-extrabold shadow-[2px_2px_0_0_#1B1340] transition ${
                     active ? "z-10 scale-110 text-white" : "text-[#1B1340]"
                   }`}
                 >
-                  {KIND_EMOJI[l.kind]} {short(l.price)}
+                  {KIND_EMOJI[l.kind]} {l.priceLow ? short(l.priceLow) : "₱?"}
                 </button>
               </Marker>
             );
@@ -251,9 +187,20 @@ export default function Explorer({
             Condos, houses, and lots across Metro Manila, checked against your
             salary, savings, and appetite for risk.
           </p>
-          <p className="mt-2 inline-block rounded-full border-2 border-[#1B1340] bg-white px-2.5 py-0.5 text-[11px] font-bold">
-            Sample data · not real prices yet
-          </p>
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {developers.map((d) => (
+              <span
+                key={d}
+                style={{ background: color(d) }}
+                className="rounded-full border-2 border-[#1B1340] px-2.5 py-0.5 text-[11px] font-bold"
+              >
+                {d}
+              </span>
+            ))}
+            <span className="rounded-full border-2 border-[#1B1340] bg-white px-2.5 py-0.5 text-[11px] font-bold">
+              Prices from developer sites · {scrapedAt}
+            </span>
+          </div>
 
           <div className="mt-4 flex gap-2">
             {TABS.map(([id, label, emoji]) => (

@@ -1,0 +1,5228 @@
+{
+ "Roxas Boulevard, Brgy. San Rafael, Pasay City, Philippines": null,
+ "Jupiter Street, Corner Nicanor Garcia St. Bel-Air Village Makati City, Philippines": null,
+ "Renaissance Center, Meralco Ave, Pasig, Metro Manila, Philippines": [
+  14.5813961,
+  121.0641206
+ ],
+ "Edsa Ext. cor. Sunrise Drive, MOA Complex, Pasay City, Philippines": null,
+ "Sunrise drive corner Pearl road, SM Mall of Asia Complex, CBP-1A, MOA Pasay City, Philippines": null,
+ "Cayetano Boulevard, Brgy Ususan, Taguig City, Philippines": [
+  14.5400155,
+  121.0760185
+ ],
+ "EDSA corner Madison St., Mandaluyong City, Philippines": null,
+ "Susana Heights, Muntinlupa City, Philippines": [
+  14.3706702,
+  121.0375558
+ ],
+ "Bagtikan Street cor. Kamagong Street, Brgy. San Antonio, Makati City, Philippines": null,
+ "Quirino Highway, Brgy. Pasong Putik, Novaliches, Quezon City, Philippines": null,
+ "Don Chino Roces Ave, Brgy. Pio Del Pilar, Makati City, Philippines": null,
+ "EDSA and Mayflower St. Brgy. Highway Hills, Shaw, Mandaluyong City, Philippines": null,
+ "Misamis & Nueva Ecija St. Brgy. Sto. Cristo, Quezon City, Philippines": null,
+ "Sunrise Drive, corner EDSA Extension, MOA Pasay City, Philippines": null,
+ "Chino Roces Avenue, Brgy. Bangkal, Makati City, Philippines": null,
+ "M.H. Del Pilar St., Malate, Manila City, Philippines": [
+  14.5714517,
+  120.9831673
+ ],
+ "Alabang-Zapote Road, Brgy. Talon Uno, Las Piñas City, Philippines": null,
+ "E. Rodriguez Jr. Ave., corner Jose Cruz St. Brgy. Ugong, Pasig City, Philippines": null,
+ "Ninoy Aquino Ave. Brgy. Sto Nino, Paranaque City, Philippines": [
+  14.5094694,
+  121.0022075
+ ],
+ "West Service Rd., Brgy. Sun Valley, Bicutan, Parañaque City, Philippines": null,
+ "Alabang-Zapote Road, Brgy. Almanza Uno, Las Pinas City, Philippines": null,
+ "Dr. A. Santos Ave. Brgy. San Dionisio, Sucat, Paranaque, Philippines": null,
+ "Brgy. San Bartolome, Novaliches, Quezon City, Philippines": null,
+ "Dr. A. Santos Avenue, Brgy. San Antonio, Sucat, Paranaque City, Philippines": null,
+ "Roxas Boulevard, corner Dapitan St. Pasay City, Philippines": null,
+ "Seaside Blvd. cor. Sunrise Drive, Mall of Asia Complex, Pasay City, Philippines": null,
+ "Lot 2, Bry. 76, Zone 10, Central Business Park 1-A, MOA Pasay City, Philippines": null,
+ "Reliance Street, Brgy. Nagkaisang Nayon, Novaliches, Quezon City, Philippines": null,
+ "\"Alabang-Zapote Road, Brgy. Almanza Uno, Las Pinas City\", Philippines": null,
+ "Sunrise Drive, CBP1A, Mall of Asia Complex, Pasay City, Philippines": null,
+ "Malugay and Yakal Street , Brgy. San Antonio Makati City, Philippines": null,
+ "Samar Avenue, corner EDSA, Brgy. South Triangle , Quezon City, Philippines": null,
+ "Chino Roses Ave., Brgy. Bangkal, Makati City, Philippines": null,
+ "Jackson Avenue, Asiaworld City, Brgy. Don Galo, Parañaque City, Philippines": null,
+ "search:Roxas Boulevard, Brgy. San Rafael, Pasay City, Philippines": [],
+ "search:Breeze Residences, Pasay, Philippines": [],
+ "search:Jupiter Street, Corner Nicanor Garcia St. Bel-Air Village Makati City, Philippines": [],
+ "search:Jazz Residences, Makati, Philippines": [
+  {
+   "place_id": 259379772,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 154410687,
+   "lat": "14.5638334",
+   "lon": "121.0217820",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "SM Jazz Residences",
+   "display_name": "SM Jazz Residences, Bel-Air, District I, Makati, Southern Manila District, Metro Manila, 1210, Philippines",
+   "boundingbox": [
+    "14.5627197",
+    "14.5646674",
+    "121.0207497",
+    "121.0225650"
+   ]
+  }
+ ],
+ "reverse:14.56383,121.02178": {
+  "place_id": 426953799,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "search:Renaissance Center, Meralco Ave, Pasig, Metro Manila, Philippines": [
+  {
+   "place_id": 259481416,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 117034305,
+   "lat": "14.5813355",
+   "lon": "121.0646326",
+   "class": "building",
+   "type": "yes",
+   "place_rank": 30,
+   "importance": 5.8607614251880943e-05,
+   "addresstype": "building",
+   "name": "Renaissance 2000 Tower",
+   "display_name": "Renaissance 2000 Tower, Meralco Avenue, Ugong, Pasig First District, Pasig, Eastern Manila District, Metro Manila, 1604, Philippines",
+   "boundingbox": [
+    "14.5812406",
+    "14.5814304",
+    "121.0644655",
+    "121.0647996"
+   ]
+  }
+ ],
+ "reverse:14.58134,121.06463": {
+  "place_id": 427036622,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "search:Edsa Ext. cor. Sunrise Drive, MOA Complex, Pasay City, Philippines": [],
+ "search:Shell Residences, Pasay, Philippines": [
+  {
+   "place_id": 256800400,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 136947746,
+   "lat": "14.5365408",
+   "lon": "120.9864966",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Shell Residences",
+   "display_name": "Shell Residences, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, 1300, Philippines",
+   "boundingbox": [
+    "14.5358386",
+    "14.5372305",
+    "120.9855500",
+    "120.9874505"
+   ]
+  }
+ ],
+ "reverse:14.53654,120.98650": {
+  "place_id": 424651874,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Sunrise drive corner Pearl road, SM Mall of Asia Complex, CBP-1A, MOA Pasay City, Philippines": [],
+ "search:Sea Residences, Pasay, Philippines": [
+  {
+   "place_id": 269747209,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 30269581,
+   "lat": "14.5335507",
+   "lon": "120.9863377",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Sea Residences",
+   "display_name": "Sea Residences, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5331301",
+    "14.5345140",
+    "120.9859254",
+    "120.9867105"
+   ]
+  }
+ ],
+ "reverse:14.53355,120.98634": {
+  "place_id": 424651874,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Cayetano Boulevard, Brgy Ususan, Taguig City, Philippines": [
+  {
+   "place_id": 258485004,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 705324512,
+   "lat": "14.5400155",
+   "lon": "121.0760185",
+   "class": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.053391940947585224,
+   "addresstype": "secondary",
+   "name": "Pedro Cayetano Boulevard",
+   "display_name": "Pedro Cayetano Boulevard, Pedro Espiritu Compound, Ligid, Tipas, Taguig District 1, Taguig, Southern Manila District, Metro Manila, 1638, Philippines",
+   "boundingbox": [
+    "14.5361748",
+    "14.5439808",
+    "121.0745955",
+    "121.0770740"
+   ]
+  }
+ ],
+ "reverse:14.54002,121.07602": {
+  "place_id": 257778993,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "search:EDSA corner Madison St., Mandaluyong City, Philippines": [],
+ "search:Light Residences, Mandaluyong, Philippines": [
+  {
+   "place_id": 257819267,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 60198082,
+   "lat": "14.5736968",
+   "lon": "121.0491680",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Light Residences",
+   "display_name": "Light Residences, Barangka Ilaya, Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5728358",
+    "14.5745182",
+    "121.0481287",
+    "121.0499256"
+   ]
+  }
+ ],
+ "reverse:14.57370,121.04917": {
+  "place_id": 425149470,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2284209,
+  "lat": "14.5774392",
+  "lon": "121.0338973",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5158949494070014,
+  "addresstype": "city",
+  "name": "Mandaluyong",
+  "display_name": "Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city": "Mandaluyong",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5672083",
+   "14.6017034",
+   "121.0170704",
+   "121.0600702"
+  ]
+ },
+ "search:Susana Heights, Muntinlupa City, Philippines": [
+  {
+   "place_id": 260243515,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 267720965,
+   "lat": "14.3706702",
+   "lon": "121.0375558",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.08005525673304338,
+   "addresstype": "residential",
+   "name": "Susana Heights",
+   "display_name": "Susana Heights, Tunasan, Muntinlupa District 1, Muntinlupa, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.3592400",
+    "14.3821080",
+    "121.0176086",
+    "121.0422783"
+   ]
+  }
+ ],
+ "reverse:14.37067,121.03756": {
+  "place_id": 260613573,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345807,
+  "lat": "14.3808017",
+  "lon": "121.0352714",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21338859006637673,
+  "addresstype": "city_district",
+  "name": "Muntinlupa District 1",
+  "display_name": "Muntinlupa District 1, Muntinlupa, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Muntinlupa District 1",
+   "city": "Muntinlupa",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3472554",
+   "14.4143626",
+   "121.0079059",
+   "121.0583496"
+  ]
+ },
+ "search:Bagtikan Street cor. Kamagong Street, Brgy. San Antonio, Makati City, Philippines": [],
+ "search:Lush Residences, Makati, Philippines": [
+  {
+   "place_id": 260389873,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 318895106,
+   "lat": "14.5637170",
+   "lon": "121.0152126",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "Lush Residences",
+   "display_name": "Lush Residences, San Antonio, District I, Makati, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5634338",
+    "14.5640356",
+    "121.0148538",
+    "121.0155245"
+   ]
+  }
+ ],
+ "reverse:14.56372,121.01521": {
+  "place_id": 426016394,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "search:Quirino Highway, Brgy. Pasong Putik, Novaliches, Quezon City, Philippines": [],
+ "search:Trees Residences, Quezon City, Philippines": [
+  {
+   "place_id": 259380281,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 14722231,
+   "lat": "14.7364263",
+   "lon": "121.0655786",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.08006437705043104,
+   "addresstype": "residential",
+   "name": "Trees Residences",
+   "display_name": "Trees Residences, Pasong Putik Proper, 5th District, Quezon City, Eastern Manila District, Metro Manila, 1118, Philippines",
+   "boundingbox": [
+    "14.7355169",
+    "14.7380997",
+    "121.0639162",
+    "121.0672308"
+   ]
+  }
+ ],
+ "reverse:14.73643,121.06558": {
+  "place_id": 432571635,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2274282,
+  "lat": "14.7346592",
+  "lon": "121.0743405",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "5th District",
+  "display_name": "5th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "5th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6928864",
+   "14.7764137",
+   "121.0128715",
+   "121.1337681"
+  ]
+ },
+ "search:Don Chino Roces Ave, Brgy. Pio Del Pilar, Makati City, Philippines": [],
+ "search:Red Residences, Makati, Philippines": [
+  {
+   "place_id": 260151885,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1068373260,
+   "lat": "14.5558059",
+   "lon": "121.0138931",
+   "class": "building",
+   "type": "residential",
+   "place_rank": 30,
+   "importance": 5.8607614251880943e-05,
+   "addresstype": "building",
+   "name": "Red Residences",
+   "display_name": "Red Residences, Chino Roces Avenue, Kayamanan A, Pio del Pilar, District I, Makati, Southern Manila District, Metro Manila, 1231, Philippines",
+   "boundingbox": [
+    "14.5555236",
+    "14.5560774",
+    "121.0135604",
+    "121.0142263"
+   ]
+  }
+ ],
+ "reverse:14.55581,121.01389": {
+  "place_id": 426016394,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "search:EDSA and Mayflower St. Brgy. Highway Hills, Shaw, Mandaluyong City, Philippines": [],
+ "search:Fame Residences, Mandaluyong, Philippines": [
+  {
+   "place_id": 430035097,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 532141574,
+   "lat": "14.5774318",
+   "lon": "121.0522564",
+   "class": "building",
+   "type": "apartments",
+   "place_rank": 30,
+   "importance": 5.8607614251880943e-05,
+   "addresstype": "building",
+   "name": "Fame Residences",
+   "display_name": "Fame Residences, Williams Street, Highway Hills, Mandaluyong, Eastern Manila District, Metro Manila, 1553, Philippines",
+   "boundingbox": [
+    "14.5767361",
+    "14.5781275",
+    "121.0514671",
+    "121.0530456"
+   ]
+  }
+ ],
+ "reverse:14.57743,121.05226": {
+  "place_id": 425149470,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2284209,
+  "lat": "14.5774392",
+  "lon": "121.0338973",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5158949494070014,
+  "addresstype": "city",
+  "name": "Mandaluyong",
+  "display_name": "Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city": "Mandaluyong",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5672083",
+   "14.6017034",
+   "121.0170704",
+   "121.0600702"
+  ]
+ },
+ "search:Misamis & Nueva Ecija St. Brgy. Sto. Cristo, Quezon City, Philippines": [],
+ "search:Fern at Grass Residences, Quezon City, Philippines": [
+  {
+   "place_id": 257868972,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 14603945,
+   "lat": "14.6589698",
+   "lon": "121.0279819",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.08006437705043104,
+   "addresstype": "residential",
+   "name": "Fern at Grass Residences",
+   "display_name": "Fern at Grass Residences, Santo Cristo, Bago Bantay, 1st District, Quezon City, Eastern Manila District, Metro Manila, 1105, Philippines",
+   "boundingbox": [
+    "14.6585086",
+    "14.6594765",
+    "121.0266200",
+    "121.0291504"
+   ]
+  }
+ ],
+ "reverse:14.65897,121.02798": {
+  "place_id": 260024945,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 6274335,
+  "lat": "14.6597338",
+  "lon": "121.0236071",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Bago Bantay",
+  "display_name": "Bago Bantay, 1st District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Bago Bantay",
+   "city_district": "1st District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6545270",
+   "14.6659622",
+   "121.0185757",
+   "121.0366667"
+  ]
+ },
+ "search:Light 2 Residences, Mandaluyong, Philippines": [
+  {
+   "place_id": 260189404,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 30328155,
+   "lat": "14.5748348",
+   "lon": "121.0497071",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "Light 2 Residences",
+   "display_name": "Light 2 Residences, Barangka Ilaya, Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5741975",
+    "14.5756144",
+    "121.0491108",
+    "121.0503465"
+   ]
+  }
+ ],
+ "reverse:14.57483,121.04971": {
+  "place_id": 424589418,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2284209,
+  "lat": "14.5774392",
+  "lon": "121.0338973",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5158949494070014,
+  "addresstype": "city",
+  "name": "Mandaluyong",
+  "display_name": "Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city": "Mandaluyong",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5672083",
+   "14.6017034",
+   "121.0170704",
+   "121.0600702"
+  ]
+ },
+ "search:Sunrise Drive, corner EDSA Extension, MOA Pasay City, Philippines": [],
+ "search:Ice Tower Residential-Offices, Pasay, Philippines": [],
+ "search:Chino Roces Avenue, Brgy. Bangkal, Makati City, Philippines": [],
+ "search:Mint Residences, Makati, Philippines": [
+  {
+   "place_id": 259094052,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 914613254,
+   "lat": "14.5433592",
+   "lon": "121.0178768",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "Mint Residences",
+   "display_name": "Mint Residences, Bangkal, District I, Makati, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5429414",
+    "14.5437821",
+    "121.0173196",
+    "121.0184359"
+   ]
+  }
+ ],
+ "reverse:14.54336,121.01788": {
+  "place_id": 426578659,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "search:M.H. Del Pilar St., Malate, Manila City, Philippines": [
+  {
+   "place_id": 259931917,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 156307475,
+   "lat": "14.5668584",
+   "lon": "120.9854207",
+   "class": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.34566654831183224,
+   "addresstype": "secondary",
+   "name": "M. H. del Pilar Street",
+   "display_name": "M. H. del Pilar Street, Barangay 701, Malate, Fifth District, Manila, Capital District, Metro Manila, 1004, Philippines",
+   "boundingbox": [
+    "14.5650513",
+    "14.5686406",
+    "120.9845364",
+    "120.9862515"
+   ]
+  }
+ ],
+ "reverse:14.56686,120.98542": {
+  "place_id": 260444048,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 103704,
+  "lat": "14.5700388",
+  "lon": "120.9915263",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.4075198435543142,
+  "addresstype": "suburb",
+  "name": "Malate",
+  "display_name": "Malate, Fifth District, Manila, Capital District, Metro Manila, 1004, Philippines",
+  "address": {
+   "suburb": "Malate",
+   "city_district": "Fifth District",
+   "city": "Manila",
+   "state_district": "Capital District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "postcode": "1004",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5568913",
+   "14.5783791",
+   "120.9798953",
+   "120.9992325"
+  ]
+ },
+ "search:Alabang-Zapote Road, Brgy. Talon Uno, Las Piñas City, Philippines": [],
+ "search:Twin Residences, Las Piñas, Philippines": [
+  {
+   "place_id": 260013545,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 90114253,
+   "lat": "14.4410670",
+   "lon": "120.9998535",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "SMDC Twin Residences",
+   "display_name": "SMDC Twin Residences, Talon Uno, 2nd District, Las Piñas, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.4403942",
+    "14.4419033",
+    "120.9986957",
+    "121.0007127"
+   ]
+  }
+ ],
+ "reverse:14.44107,120.99985": {
+  "place_id": 260978374,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 3291482,
+  "lat": "14.4009972",
+  "lon": "121.0065087",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "2nd District",
+  "display_name": "2nd District, Las Piñas, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "2nd District",
+   "city": "Las Piñas",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3491862",
+   "14.4528090",
+   "120.9721051",
+   "121.0242042"
+  ]
+ },
+ "search:E. Rodriguez Jr. Ave., corner Jose Cruz St. Brgy. Ugong, Pasig City, Philippines": [],
+ "search:Gem Residences, Pasig, Philippines": [
+  {
+   "place_id": 259754180,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1257690088,
+   "lat": "14.5815544",
+   "lon": "121.0767427",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "SMDC GEM Residences",
+   "display_name": "SMDC GEM Residences, Ugong, Pasig First District, Pasig, Eastern Manila District, Metro Manila, 1604, Philippines",
+   "boundingbox": [
+    "14.5811935",
+    "14.5819079",
+    "121.0763562",
+    "121.0771287"
+   ]
+  }
+ ],
+ "reverse:14.58155,121.07674": {
+  "place_id": 426661486,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "search:Ninoy Aquino Ave. Brgy. Sto Nino, Paranaque City, Philippines": [
+  {
+   "place_id": 259784772,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 22732422,
+   "lat": "14.5094694",
+   "lon": "121.0022075",
+   "class": "highway",
+   "type": "primary",
+   "place_rank": 26,
+   "importance": 0.053391940947585224,
+   "addresstype": "primary",
+   "name": "Ninoy Aquino Avenue",
+   "display_name": "Ninoy Aquino Avenue, Barangay 198, Zone 20, District 1, Pasay, Southern Manila District, Metro Manila, 1301, Philippines",
+   "boundingbox": [
+    "14.5094045",
+    "14.5095343",
+    "121.0021840",
+    "121.0022309"
+   ]
+  }
+ ],
+ "reverse:14.50947,121.00221": {
+  "place_id": 424651874,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:West Service Rd., Brgy. Sun Valley, Bicutan, Parañaque City, Philippines": [],
+ "search:Spring Residences, Parañaque, Philippines": [
+  {
+   "place_id": 262899407,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 161848306,
+   "lat": "14.4883795",
+   "lon": "121.0430603",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Spring Residences",
+   "display_name": "Spring Residences, Sun Valley, Parañaque District 2, Parañaque, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.4876919",
+    "14.4890295",
+    "121.0422160",
+    "121.0441117"
+   ]
+  }
+ ],
+ "reverse:14.48838,121.04306": {
+  "place_id": 259434149,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345732,
+  "lat": "14.4707921",
+  "lon": "121.0315266",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 2",
+  "display_name": "Parañaque District 2, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 2",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4342393",
+   "14.5073296",
+   "120.9956165",
+   "121.0481398"
+  ]
+ },
+ "search:Alabang-Zapote Road, Brgy. Almanza Uno, Las Pinas City, Philippines": [],
+ "search:South Residences, Las Piñas, Philippines": [
+  {
+   "place_id": 257734707,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 40722428,
+   "lat": "14.4310788",
+   "lon": "121.0100038",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "South Residences",
+   "display_name": "South Residences, Almanza Uno, 2nd District, Las Piñas, Southern Manila District, Metro Manila, 1750, Philippines",
+   "boundingbox": [
+    "14.4301327",
+    "14.4322952",
+    "121.0084526",
+    "121.0108653"
+   ]
+  }
+ ],
+ "reverse:14.43108,121.01000": {
+  "place_id": 259068195,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 3291482,
+  "lat": "14.4009972",
+  "lon": "121.0065087",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "2nd District",
+  "display_name": "2nd District, Las Piñas, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "2nd District",
+   "city": "Las Piñas",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3491862",
+   "14.4528090",
+   "120.9721051",
+   "121.0242042"
+  ]
+ },
+ "search:Dr. A. Santos Ave. Brgy. San Dionisio, Sucat, Paranaque, Philippines": [],
+ "search:Field Residences, Parañaque, Philippines": [
+  {
+   "place_id": 260306650,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 15480047,
+   "lat": "14.4794602",
+   "lon": "120.9924924",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Field Residences",
+   "display_name": "Field Residences, Parañaque District 1, Parañaque, Southern Manila District, Metro Manila, 1700, Philippines",
+   "boundingbox": [
+    "14.4774698",
+    "14.4814219",
+    "120.9903001",
+    "120.9941213"
+   ]
+  }
+ ],
+ "reverse:14.47946,120.99249": {
+  "place_id": 259154930,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345733,
+  "lat": "14.4942379",
+  "lon": "120.9944255",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 1",
+  "display_name": "Parañaque District 1, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 1",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4552285",
+   "14.5332355",
+   "120.9741996",
+   "121.0203630"
+  ]
+ },
+ "search:Brgy. San Bartolome, Novaliches, Quezon City, Philippines": [],
+ "search:Vine Residences, Quezon City, Philippines": [
+  {
+   "place_id": 260338435,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 14700213,
+   "lat": "14.7091659",
+   "lon": "121.0348002",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.08006437705043104,
+   "addresstype": "residential",
+   "name": "Vine Residences",
+   "display_name": "Vine Residences, San Bartolome, Novaliches, 5th District, Quezon City, Eastern Manila District, Metro Manila, 1116, Philippines",
+   "boundingbox": [
+    "14.7078789",
+    "14.7102467",
+    "121.0331290",
+    "121.0362171"
+   ]
+  }
+ ],
+ "reverse:14.70917,121.03480": {
+  "place_id": 432194282,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2274282,
+  "lat": "14.7346592",
+  "lon": "121.0743405",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "5th District",
+  "display_name": "5th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "5th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6928864",
+   "14.7764137",
+   "121.0128715",
+   "121.1337681"
+  ]
+ },
+ "search:Dr. A. Santos Avenue, Brgy. San Antonio, Sucat, Paranaque City, Philippines": [],
+ "search:Bloom Residences, Parañaque, Philippines": [
+  {
+   "place_id": 259580734,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 15570717,
+   "lat": "14.4576647",
+   "lon": "121.0416649",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "Bloom Residences",
+   "display_name": "Bloom Residences, San Antonio, Parañaque District 2, Parañaque, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.4568712",
+    "14.4583789",
+    "121.0404317",
+    "121.0429321"
+   ]
+  }
+ ],
+ "reverse:14.45766,121.04166": {
+  "place_id": 259650477,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345732,
+  "lat": "14.4707921",
+  "lon": "121.0315266",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 2",
+  "display_name": "Parañaque District 2, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 2",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4342393",
+   "14.5073296",
+   "120.9956165",
+   "121.0481398"
+  ]
+ },
+ "search:Roxas Boulevard, corner Dapitan St. Pasay City, Philippines": [],
+ "search:Coast Residences, Pasay, Philippines": [
+  {
+   "place_id": 259410768,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1060942199,
+   "lat": "14.5543824",
+   "lon": "120.9898772",
+   "class": "building",
+   "type": "residential",
+   "place_rank": 30,
+   "importance": 5.8607614251880943e-05,
+   "addresstype": "building",
+   "name": "Coast Residences",
+   "display_name": "Coast Residences, Roxas Boulevard, Barangay 7, Zone 2, District 1, Pasay, Southern Manila District, Metro Manila, 1307, Philippines",
+   "boundingbox": [
+    "14.5540442",
+    "14.5547205",
+    "120.9893134",
+    "120.9904409"
+   ]
+  }
+ ],
+ "reverse:14.55438,120.98988": {
+  "place_id": 425428655,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Seaside Blvd. cor. Sunrise Drive, Mall of Asia Complex, Pasay City, Philippines": [],
+ "search:Shore Residences, Pasay, Philippines": [
+  {
+   "place_id": 256646178,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 235894496,
+   "lat": "14.5408946",
+   "lon": "120.9854133",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Shore Residences",
+   "display_name": "Shore Residences, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5395633",
+    "14.5423541",
+    "120.9846183",
+    "120.9861316"
+   ]
+  }
+ ],
+ "reverse:14.54089,120.98541": {
+  "place_id": 424651874,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Shore 2 Residences, Pasay, Philippines": [
+  {
+   "place_id": 259502316,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 693450810,
+   "lat": "14.5411649",
+   "lon": "120.9862908",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Shore 2 Residences",
+   "display_name": "Shore 2 Residences, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5396951",
+    "14.5425338",
+    "120.9856946",
+    "120.9869005"
+   ]
+  }
+ ],
+ "reverse:14.54116,120.98629": {
+  "place_id": 425428655,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Shore 3 Residences, Pasay, Philippines": [
+  {
+   "place_id": 260588958,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1125678495,
+   "lat": "14.5388286",
+   "lon": "120.9861588",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Shore 3 Residences",
+   "display_name": "Shore 3 Residences, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5379406",
+    "14.5396990",
+    "120.9851952",
+    "120.9871129"
+   ]
+  }
+ ],
+ "reverse:14.53883,120.98616": {
+  "place_id": 425586598,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Lot 2, Bry. 76, Zone 10, Central Business Park 1-A, MOA Pasay City, Philippines": [],
+ "search:S Residences, Pasay, Philippines": [
+  {
+   "place_id": 257988087,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 927685939,
+   "lat": "14.5347141",
+   "lon": "120.9879353",
+   "class": "building",
+   "type": "residential",
+   "place_rank": 30,
+   "importance": 5.8607614251880943e-05,
+   "addresstype": "building",
+   "name": "S Residences Tower 1",
+   "display_name": "S Residences Tower 1, EDSA, SM Mall of Asia Complex, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, 1300, Philippines",
+   "boundingbox": [
+    "14.5343278",
+    "14.5350909",
+    "120.9876608",
+    "120.9882024"
+   ]
+  }
+ ],
+ "reverse:14.53471,120.98794": {
+  "place_id": 424651874,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Reliance Street, Brgy. Nagkaisang Nayon, Novaliches, Quezon City, Philippines": [],
+ "search:Hill Residences, Quezon City, Philippines": [
+  {
+   "place_id": 260086848,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 14703022,
+   "lat": "14.7239038",
+   "lon": "121.0209346",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.08005479591058211,
+   "addresstype": "residential",
+   "name": "Hill Residences",
+   "display_name": "Hill Residences, Nagkaisang Nayon, Novaliches, 5th District, Quezon City, Eastern Manila District, Metro Manila, 1125, Philippines",
+   "boundingbox": [
+    "14.7226109",
+    "14.7248484",
+    "121.0192879",
+    "121.0222431"
+   ]
+  }
+ ],
+ "reverse:14.72390,121.02093": {
+  "place_id": 432194282,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2274282,
+  "lat": "14.7346592",
+  "lon": "121.0743405",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "5th District",
+  "display_name": "5th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "5th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6928864",
+   "14.7764137",
+   "121.0128715",
+   "121.1337681"
+  ]
+ },
+ "search:\"Alabang-Zapote Road, Brgy. Almanza Uno, Las Pinas City\", Philippines": [],
+ "search:South 2 Residences, Las Piñas, Philippines": [
+  {
+   "place_id": 256531280,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 14061903,
+   "lat": "14.4334484",
+   "lon": "121.0081614",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "South 2 Residences",
+   "display_name": "South 2 Residences, Almanza Uno, 2nd District, Las Piñas, Southern Manila District, Metro Manila, 1750, Philippines",
+   "boundingbox": [
+    "14.4326656",
+    "14.4348302",
+    "121.0076438",
+    "121.0093817"
+   ]
+  }
+ ],
+ "reverse:14.43345,121.00816": {
+  "place_id": 257593074,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 3291482,
+  "lat": "14.4009972",
+  "lon": "121.0065087",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "2nd District",
+  "display_name": "2nd District, Las Piñas, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "2nd District",
+   "city": "Las Piñas",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3491862",
+   "14.4528090",
+   "120.9721051",
+   "121.0242042"
+  ]
+ },
+ "search:Sunrise Drive, CBP1A, Mall of Asia Complex, Pasay City, Philippines": [],
+ "search:Sail Residences, Pasay, Philippines": [
+  {
+   "place_id": 260166891,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 927678720,
+   "lat": "14.5375530",
+   "lon": "120.9863507",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Sail Residences",
+   "display_name": "Sail Residences, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5368385",
+    "14.5381777",
+    "120.9854050",
+    "120.9873000"
+   ]
+  }
+ ],
+ "reverse:14.53755,120.98635": {
+  "place_id": 424460080,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "search:Malugay and Yakal Street , Brgy. San Antonio Makati City, Philippines": [],
+ "search:Air Residences, Makati, Philippines": [
+  {
+   "place_id": 260612093,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 291739373,
+   "lat": "14.5623429",
+   "lon": "121.0145823",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Air Residences",
+   "display_name": "Air Residences, San Antonio, District I, Makati, Southern Manila District, Metro Manila, 1203, Philippines",
+   "boundingbox": [
+    "14.5618277",
+    "14.5629245",
+    "121.0141983",
+    "121.0151387"
+   ]
+  }
+ ],
+ "reverse:14.56234,121.01458": {
+  "place_id": 426016394,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "search:Samar Avenue, corner EDSA, Brgy. South Triangle , Quezon City, Philippines": [],
+ "search:Glam Residences, Quezon City, Philippines": [
+  {
+   "place_id": 259793519,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1060960829,
+   "lat": "14.6351694",
+   "lon": "121.0422246",
+   "class": "building",
+   "type": "construction",
+   "place_rank": 30,
+   "importance": 6.437705043102186e-05,
+   "addresstype": "building",
+   "name": "Glam Residences",
+   "display_name": "Glam Residences, Samar Avenue, South Triangle, Diliman, 4th District, Quezon City, Eastern Manila District, Metro Manila, 1103, Philippines",
+   "boundingbox": [
+    "14.6346673",
+    "14.6355515",
+    "121.0419321",
+    "121.0428124"
+   ]
+  }
+ ],
+ "reverse:14.63517,121.04222": {
+  "place_id": 257009953,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 17877944,
+  "lat": "14.6411146",
+  "lon": "121.0469135",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Diliman",
+  "display_name": "Diliman, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Diliman",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6274437",
+   "14.6633979",
+   "121.0156952",
+   "121.0762382"
+  ]
+ },
+ "search:Chino Roses Ave., Brgy. Bangkal, Makati City, Philippines": [],
+ "search:Jade Residences, Makati, Philippines": [
+  {
+   "place_id": 260303214,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 20297187,
+   "lat": "14.5439124",
+   "lon": "121.0160347",
+   "class": "landuse",
+   "type": "construction",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "construction",
+   "name": "Jade Residences",
+   "display_name": "Jade Residences, Bangkal, District I, Makati, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5435079",
+    "14.5443715",
+    "121.0154733",
+    "121.0166905"
+   ]
+  }
+ ],
+ "reverse:14.54391,121.01603": {
+  "place_id": 426016394,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "reverse:14.52554,121.06461": {
+  "place_id": 260320124,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:16.39048,120.55601": {
+  "place_id": 422019441,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 52304,
+  "lat": "16.5200000",
+  "lon": "120.6900000",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 8,
+  "importance": 0.5296437531636011,
+  "addresstype": "state",
+  "name": "Benguet",
+  "display_name": "Benguet, Cordillera Administrative Region, Philippines",
+  "address": {
+   "state": "Benguet",
+   "ISO3166-2-lvl4": "PH-BEN",
+   "region": "Cordillera Administrative Region",
+   "ISO3166-2-lvl3": "PH-15",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "16.1492421",
+   "16.9247386",
+   "120.4572942",
+   "120.9630452"
+  ]
+ },
+ "reverse:14.24857,121.13205": {
+  "place_id": 421951197,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1552431,
+  "lat": "14.2801450",
+  "lon": "121.1234786",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4693731387967961,
+  "addresstype": "city",
+  "name": "Cabuyao",
+  "display_name": "Cabuyao, Laguna, Calabarzon, 4025, Philippines",
+  "address": {
+   "city": "Cabuyao",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4025",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1667946",
+   "14.3167834",
+   "121.0172778",
+   "121.2075232"
+  ]
+ },
+ "reverse:14.44536,121.04697": {
+  "place_id": 259621531,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345806,
+  "lat": "14.4287234",
+  "lon": "121.0372655",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Muntinlupa District 2",
+  "display_name": "Muntinlupa District 2, Muntinlupa, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Muntinlupa District 2",
+   "city": "Muntinlupa",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3898628",
+   "14.4679664",
+   "121.0094549",
+   "121.0573427"
+  ]
+ },
+ "reverse:11.98960,121.91330": {
+  "place_id": 257474968,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 3593717,
+  "lat": "11.9000941",
+  "lon": "121.9099000",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.3874552331902155,
+  "addresstype": "town",
+  "name": "Malay",
+  "display_name": "Malay, Aklan, Western Visayas, 5608, Philippines",
+  "address": {
+   "town": "Malay",
+   "state": "Aklan",
+   "ISO3166-2-lvl4": "PH-AKL",
+   "region": "Western Visayas",
+   "ISO3166-2-lvl3": "PH-06",
+   "postcode": "5608",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "11.8272396",
+   "12.0355512",
+   "121.7670967",
+   "122.0087396"
+  ]
+ },
+ "search:Jackson Avenue, Asiaworld City, Brgy. Don Galo, Parañaque City, Philippines": [],
+ "search:Oak Harbor Residences, Parañaque, Philippines": [
+  {
+   "place_id": 259720131,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 14972601,
+   "lat": "14.5063516",
+   "lon": "120.9792097",
+   "class": "landuse",
+   "type": "residential",
+   "place_rank": 24,
+   "importance": 0.0800586076142519,
+   "addresstype": "residential",
+   "name": "Oak Harbor Residences",
+   "display_name": "Oak Harbor Residences, Don Galo, Parañaque District 1, Parañaque, Southern Manila District, Metro Manila, Philippines",
+   "boundingbox": [
+    "14.5054713",
+    "14.5066515",
+    "120.9785405",
+    "120.9809303"
+   ]
+  }
+ ],
+ "reverse:14.50635,120.97921": {
+  "place_id": 259576788,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345733,
+  "lat": "14.4942379",
+  "lon": "120.9944255",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 1",
+  "display_name": "Parañaque District 1, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 1",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4552285",
+   "14.5332355",
+   "120.9741996",
+   "121.0203630"
+  ]
+ },
+ "reverse:14.56936,121.06716": {
+  "place_id": 426099036,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:14.46825,120.97027": {
+  "place_id": 259001325,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 3292669,
+  "lat": "14.4637318",
+  "lon": "120.9843058",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "1st District",
+  "display_name": "1st District, Las Piñas, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "1st District",
+   "city": "Las Piñas",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4400122",
+   "14.4873504",
+   "120.9659993",
+   "121.0168616"
+  ]
+ },
+ "reverse:14.44496,120.99905": {
+  "place_id": 257593074,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 3291482,
+  "lat": "14.4009972",
+  "lon": "121.0065087",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "2nd District",
+  "display_name": "2nd District, Las Piñas, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "2nd District",
+   "city": "Las Piñas",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3491862",
+   "14.4528090",
+   "120.9721051",
+   "121.0242042"
+  ]
+ },
+ "reverse:14.61052,121.03503": {
+  "place_id": 423262401,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 17973002,
+  "lat": "14.6139486",
+  "lon": "121.0346347",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "New Manila",
+  "display_name": "New Manila, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "New Manila",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6063141",
+   "14.6267510",
+   "121.0162538",
+   "121.0466289"
+  ]
+ },
+ "reverse:14.58498,120.98458": {
+  "place_id": 382918711,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 103706,
+  "lat": "14.5785921",
+  "lon": "120.9794956",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.406866891643569,
+  "addresstype": "suburb",
+  "name": "Ermita",
+  "display_name": "Ermita, Fifth District, Manila, Capital District, Metro Manila, 1000, Philippines",
+  "address": {
+   "suburb": "Ermita",
+   "city_district": "Fifth District",
+   "city": "Manila",
+   "state_district": "Capital District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "postcode": "1000",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5731967",
+   "14.5970416",
+   "120.9710994",
+   "120.9930963"
+  ]
+ },
+ "reverse:14.60367,121.01560": {
+  "place_id": 266282333,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 186448,
+  "lat": "14.6022037",
+  "lon": "120.9940623",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.4177265377721238,
+  "addresstype": "suburb",
+  "name": "Sampaloc",
+  "display_name": "Sampaloc, Fourth District, Manila, Capital District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Sampaloc",
+   "city_district": "Fourth District",
+   "city": "Manila",
+   "state_district": "Capital District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5994210",
+   "14.6260506",
+   "120.9850444",
+   "121.0175128"
+  ]
+ },
+ "reverse:14.54385,121.00177": {
+  "place_id": 265821404,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973770,
+  "lat": "14.5436427",
+  "lon": "121.0046263",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 2",
+  "display_name": "District 2, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 2",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5255165",
+   "14.5617554",
+   "120.9956256",
+   "121.0131339"
+  ]
+ },
+ "reverse:14.61740,121.08659": {
+  "place_id": 427036623,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323639,
+  "lat": "14.5783744",
+  "lon": "121.0934333",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig Second District",
+  "display_name": "Pasig Second District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig Second District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5338787",
+   "14.6235138",
+   "121.0783990",
+   "121.1110273"
+  ]
+ },
+ "reverse:14.55628,120.99613": {
+  "place_id": 425212003,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "reverse:14.52634,121.06386": {
+  "place_id": 259730356,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:16.41193,120.61390": {
+  "place_id": 236660079,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 16122505,
+  "lat": "16.4055173",
+  "lon": "120.6084289",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672371023117415,
+  "addresstype": "suburb",
+  "name": "District 11",
+  "display_name": "District 11, Baguio, Cordillera Administrative Region, 2600, Philippines",
+  "address": {
+   "suburb": "District 11",
+   "city": "Baguio",
+   "region": "Cordillera Administrative Region",
+   "ISO3166-2-lvl3": "PH-15",
+   "postcode": "2600",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "16.3816355",
+   "16.4170594",
+   "120.6043612",
+   "120.6348824"
+  ]
+ },
+ "reverse:14.52694,121.06439": {
+  "place_id": 259400452,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.56339,121.06733": {
+  "place_id": 426099036,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:13.73299,121.43596": {
+  "place_id": 258941704,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 11259954,
+  "lat": "13.8259866",
+  "lon": "121.3964157",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.429220599380745,
+  "addresstype": "town",
+  "name": "San Juan",
+  "display_name": "San Juan, Batangas, Calabarzon, 4226, Philippines",
+  "address": {
+   "town": "San Juan",
+   "state": "Batangas",
+   "ISO3166-2-lvl4": "PH-BTG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4226",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "13.5197615",
+   "13.8673866",
+   "121.3219141",
+   "121.6099702"
+  ]
+ },
+ "reverse:14.46230,121.02519": {
+  "place_id": 259650477,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345732,
+  "lat": "14.4707921",
+  "lon": "121.0315266",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 2",
+  "display_name": "Parañaque District 2, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 2",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4342393",
+   "14.5073296",
+   "120.9956165",
+   "121.0481398"
+  ]
+ },
+ "reverse:14.61521,121.09086": {
+  "place_id": 426661487,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323639,
+  "lat": "14.5783744",
+  "lon": "121.0934333",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig Second District",
+  "display_name": "Pasig Second District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig Second District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5338787",
+   "14.6235138",
+   "121.0783990",
+   "121.1110273"
+  ]
+ },
+ "reverse:14.52010,121.06534": {
+  "place_id": 257778993,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.58018,121.04646": {
+  "place_id": 425149470,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2284209,
+  "lat": "14.5774392",
+  "lon": "121.0338973",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5158949494070014,
+  "addresstype": "city",
+  "name": "Mandaluyong",
+  "display_name": "Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city": "Mandaluyong",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5672083",
+   "14.6017034",
+   "121.0170704",
+   "121.0600702"
+  ]
+ },
+ "reverse:14.61543,121.04518": {
+  "place_id": 260238479,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9110300,
+  "lat": "14.6215829",
+  "lon": "121.0501118",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Cubao",
+  "display_name": "Cubao, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Cubao",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6109072",
+   "14.6306704",
+   "121.0369187",
+   "121.0671390"
+  ]
+ },
+ "reverse:14.56921,121.06016": {
+  "place_id": 427036622,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:14.52129,121.06378": {
+  "place_id": 259730356,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.50612,121.03433": {
+  "place_id": 259986797,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345732,
+  "lat": "14.4707921",
+  "lon": "121.0315266",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 2",
+  "display_name": "Parañaque District 2, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 2",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4342393",
+   "14.5073296",
+   "120.9956165",
+   "121.0481398"
+  ]
+ },
+ "reverse:40.58594,-75.51966": {
+  "place_id": 357453031,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 188525,
+  "lat": "40.6022552",
+  "lon": "-75.4716115",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.5967973943165419,
+  "addresstype": "city",
+  "name": "Allentown",
+  "display_name": "Allentown, Lehigh County, Pennsylvania, United States",
+  "address": {
+   "city": "Allentown",
+   "county": "Lehigh County",
+   "state": "Pennsylvania",
+   "ISO3166-2-lvl4": "US-PA",
+   "country": "United States",
+   "country_code": "us"
+  },
+  "boundingbox": [
+   "40.5499752",
+   "40.6360128",
+   "-75.5480045",
+   "-75.4192495"
+  ]
+ },
+ "reverse:14.58207,121.07693": {
+  "place_id": 426099036,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:14.65550,121.01570": {
+  "place_id": 418432437,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1693446,
+  "lat": "14.6459299",
+  "lon": "121.0262041",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "1st District",
+  "display_name": "1st District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "1st District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6170829",
+   "14.6747281",
+   "120.9896960",
+   "121.0527342"
+  ]
+ },
+ "reverse:14.73593,121.06124": {
+  "place_id": 432396396,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2274282,
+  "lat": "14.7346592",
+  "lon": "121.0743405",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "5th District",
+  "display_name": "5th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "5th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6928864",
+   "14.7764137",
+   "121.0128715",
+   "121.1337681"
+  ]
+ },
+ "reverse:16.41280,120.62469": {
+  "place_id": 237515563,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 16122505,
+  "lat": "16.4055173",
+  "lon": "120.6084289",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672371023117415,
+  "addresstype": "suburb",
+  "name": "District 11",
+  "display_name": "District 11, Baguio, Cordillera Administrative Region, 2600, Philippines",
+  "address": {
+   "suburb": "District 11",
+   "city": "Baguio",
+   "region": "Cordillera Administrative Region",
+   "ISO3166-2-lvl3": "PH-15",
+   "postcode": "2600",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "16.3816355",
+   "16.4170594",
+   "120.6043612",
+   "120.6348824"
+  ]
+ },
+ "reverse:14.46821,121.00487": {
+  "place_id": 259154930,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345733,
+  "lat": "14.4942379",
+  "lon": "120.9944255",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 1",
+  "display_name": "Parañaque District 1, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 1",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4552285",
+   "14.5332355",
+   "120.9741996",
+   "121.0203630"
+  ]
+ },
+ "reverse:14.52546,121.02438": {
+  "place_id": 425428655,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973769,
+  "lat": "14.5313501",
+  "lon": "120.9859224",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 1",
+  "display_name": "District 1, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 1",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5019841",
+   "14.5608349",
+   "120.9777628",
+   "121.0347428"
+  ]
+ },
+ "reverse:14.57238,121.03079": {
+  "place_id": 424589418,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2284209,
+  "lat": "14.5774392",
+  "lon": "121.0338973",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5158949494070014,
+  "addresstype": "city",
+  "name": "Mandaluyong",
+  "display_name": "Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city": "Mandaluyong",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5672083",
+   "14.6017034",
+   "121.0170704",
+   "121.0600702"
+  ]
+ },
+ "reverse:7.05114,125.59773": {
+  "place_id": 261565224,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 19143671,
+  "lat": "7.0798716",
+  "lon": "125.5538614",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 1e-10,
+  "addresstype": "city_district",
+  "name": "Talomo District",
+  "display_name": "Talomo District, Davao City, Davao Region, 8000, Philippines",
+  "address": {
+   "city_district": "Talomo District",
+   "city": "Davao City",
+   "region": "Davao Region",
+   "ISO3166-2-lvl3": "PH-11",
+   "postcode": "8000",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "7.0179220",
+   "7.1418162",
+   "125.4907536",
+   "125.6152208"
+  ]
+ },
+ "reverse:14.67998,121.02358": {
+  "place_id": 417499324,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2274283,
+  "lat": "14.6750165",
+  "lon": "121.0393723",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "6th District",
+  "display_name": "6th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "6th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6444747",
+   "14.7058902",
+   "120.9991025",
+   "121.0704699"
+  ]
+ },
+ "reverse:14.62773,121.03205": {
+  "place_id": 423821285,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9110318,
+  "lat": "14.6273090",
+  "lon": "121.0336219",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Project 1",
+  "display_name": "Project 1, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Project 1",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6246575",
+   "14.6352503",
+   "121.0148561",
+   "121.0617364"
+  ]
+ },
+ "reverse:14.49308,121.04120": {
+  "place_id": 259434149,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345732,
+  "lat": "14.4707921",
+  "lon": "121.0315266",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 2",
+  "display_name": "Parañaque District 2, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 2",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4342393",
+   "14.5073296",
+   "120.9956165",
+   "121.0481398"
+  ]
+ },
+ "reverse:14.62831,121.06843": {
+  "place_id": 259219138,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9110297,
+  "lat": "14.6226362",
+  "lon": "121.0679734",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672527428091856,
+  "addresstype": "suburb",
+  "name": "Project 4",
+  "display_name": "Project 4, 3rd District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Project 4",
+   "city_district": "3rd District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6137985",
+   "14.6299392",
+   "121.0619882",
+   "121.0788822"
+  ]
+ },
+ "reverse:14.65261,120.99841": {
+  "place_id": 259286151,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 15612776,
+  "lat": "14.6573090",
+  "lon": "121.0069187",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Balintawak",
+  "display_name": "Balintawak, 6th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Balintawak",
+   "city_district": "6th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6444747",
+   "14.6641276",
+   "120.9955689",
+   "121.0157774"
+  ]
+ },
+ "reverse:16.41905,120.61742": {
+  "place_id": 236851323,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 16120874,
+  "lat": "16.4231189",
+  "lon": "120.6209135",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672371023117415,
+  "addresstype": "suburb",
+  "name": "District 1",
+  "display_name": "District 1, Baguio, Cordillera Administrative Region, 2600, Philippines",
+  "address": {
+   "suburb": "District 1",
+   "city": "Baguio",
+   "region": "Cordillera Administrative Region",
+   "ISO3166-2-lvl3": "PH-15",
+   "postcode": "2600",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "16.4120202",
+   "16.4301185",
+   "120.6056862",
+   "120.6304938"
+  ]
+ },
+ "reverse:14.57497,121.05133": {
+  "place_id": 424589418,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2284209,
+  "lat": "14.5774392",
+  "lon": "121.0338973",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5158949494070014,
+  "addresstype": "city",
+  "name": "Mandaluyong",
+  "display_name": "Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city": "Mandaluyong",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5672083",
+   "14.6017034",
+   "121.0170704",
+   "121.0600702"
+  ]
+ },
+ "reverse:10.31381,123.87128": {
+  "place_id": 260179842,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 12455830,
+  "lat": "10.2934946",
+  "lon": "123.9018183",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.58351481267643,
+  "addresstype": "city",
+  "name": "Cebu City",
+  "display_name": "Cebu City, Central Visayas, Philippines",
+  "address": {
+   "city": "Cebu City",
+   "region": "Central Visayas",
+   "ISO3166-2-lvl3": "PH-07",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "10.2463015",
+   "10.4962741",
+   "123.7595780",
+   "123.9302169"
+  ]
+ },
+ "reverse:14.62847,121.06784": {
+  "place_id": 259495842,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9110297,
+  "lat": "14.6226362",
+  "lon": "121.0679734",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672527428091856,
+  "addresstype": "suburb",
+  "name": "Project 4",
+  "display_name": "Project 4, 3rd District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Project 4",
+   "city_district": "3rd District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6137985",
+   "14.6299392",
+   "121.0619882",
+   "121.0788822"
+  ]
+ },
+ "reverse:14.46698,121.01551": {
+  "place_id": 259576788,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345733,
+  "lat": "14.4942379",
+  "lon": "120.9944255",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 1",
+  "display_name": "Parañaque District 1, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 1",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4552285",
+   "14.5332355",
+   "120.9741996",
+   "121.0203630"
+  ]
+ },
+ "reverse:14.52087,121.06883": {
+  "place_id": 260320124,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.54287,121.01711": {
+  "place_id": 426016394,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "reverse:14.55831,120.99852": {
+  "place_id": 259772202,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2973770,
+  "lat": "14.5436427",
+  "lon": "121.0046263",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District 2",
+  "display_name": "District 2, Pasay, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District 2",
+   "city": "Pasay",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5255165",
+   "14.5617554",
+   "120.9956256",
+   "121.0131339"
+  ]
+ },
+ "reverse:14.65195,120.98471": {
+  "place_id": 258235782,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9405692,
+  "lat": "14.6514646",
+  "lon": "120.9882621",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672527428091856,
+  "addresstype": "suburb",
+  "name": "Grace Park East",
+  "display_name": "Grace Park East, District 2, Caloocan, Northern Manila District, Metro Manila, 1405, Philippines",
+  "address": {
+   "suburb": "Grace Park East",
+   "city_district": "District 2",
+   "city": "Caloocan",
+   "state_district": "Northern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "postcode": "1405",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6366747",
+   "14.6572948",
+   "120.9826022",
+   "120.9970642"
+  ]
+ },
+ "reverse:14.56242,121.04246": {
+  "place_id": 260326231,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788555,
+  "lat": "14.5622051",
+  "lon": "121.0446379",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District II",
+  "display_name": "District II, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District II",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5557845",
+   "14.5687598",
+   "121.0368604",
+   "121.0500718"
+  ]
+ },
+ "reverse:14.63435,121.01671": {
+  "place_id": 260331631,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 6274399,
+  "lat": "14.6412858",
+  "lon": "121.0161086",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "San Francisco del Monte",
+  "display_name": "San Francisco del Monte, 1st District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "San Francisco del Monte",
+   "city_district": "1st District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6299695",
+   "14.6551125",
+   "120.9949613",
+   "121.0282706"
+  ]
+ },
+ "reverse:14.63790,121.02669": {
+  "place_id": 257009953,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 17877944,
+  "lat": "14.6411146",
+  "lon": "121.0469135",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Diliman",
+  "display_name": "Diliman, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Diliman",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6274437",
+   "14.6633979",
+   "121.0156952",
+   "121.0762382"
+  ]
+ },
+ "reverse:14.62240,121.06395": {
+  "place_id": 259495842,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9110297,
+  "lat": "14.6226362",
+  "lon": "121.0679734",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672527428091856,
+  "addresstype": "suburb",
+  "name": "Project 4",
+  "display_name": "Project 4, 3rd District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Project 4",
+   "city_district": "3rd District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6137985",
+   "14.6299392",
+   "121.0619882",
+   "121.0788822"
+  ]
+ },
+ "reverse:14.57611,121.04474": {
+  "place_id": 424589418,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2284209,
+  "lat": "14.5774392",
+  "lon": "121.0338973",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5158949494070014,
+  "addresstype": "city",
+  "name": "Mandaluyong",
+  "display_name": "Mandaluyong, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city": "Mandaluyong",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5672083",
+   "14.6017034",
+   "121.0170704",
+   "121.0600702"
+  ]
+ },
+ "reverse:14.57301,121.07686": {
+  "place_id": 426661486,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:14.56160,120.99705": {
+  "place_id": 417217409,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 103704,
+  "lat": "14.5700388",
+  "lon": "120.9915263",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.4075198435543142,
+  "addresstype": "suburb",
+  "name": "Malate",
+  "display_name": "Malate, Fifth District, Manila, Capital District, Metro Manila, 1004, Philippines",
+  "address": {
+   "suburb": "Malate",
+   "city_district": "Fifth District",
+   "city": "Manila",
+   "state_district": "Capital District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "postcode": "1004",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5568913",
+   "14.5783791",
+   "120.9798953",
+   "120.9992325"
+  ]
+ },
+ "reverse:14.58578,121.09174": {
+  "place_id": 426099037,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323639,
+  "lat": "14.5783744",
+  "lon": "121.0934333",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig Second District",
+  "display_name": "Pasig Second District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig Second District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5338787",
+   "14.6235138",
+   "121.0783990",
+   "121.1110273"
+  ]
+ },
+ "reverse:14.43017,121.01829": {
+  "place_id": 256869759,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 3291482,
+  "lat": "14.4009972",
+  "lon": "121.0065087",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "2nd District",
+  "display_name": "2nd District, Las Piñas, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "2nd District",
+   "city": "Las Piñas",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3491862",
+   "14.4528090",
+   "120.9721051",
+   "121.0242042"
+  ]
+ },
+ "reverse:14.56951,121.05459": {
+  "place_id": 427036622,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:14.62240,121.03963": {
+  "place_id": 262298867,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9110300,
+  "lat": "14.6215829",
+  "lon": "121.0501118",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Cubao",
+  "display_name": "Cubao, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Cubao",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6109072",
+   "14.6306704",
+   "121.0369187",
+   "121.0671390"
+  ]
+ },
+ "reverse:14.59566,121.02052": {
+  "place_id": 259714792,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 186436,
+  "lat": "14.5988312",
+  "lon": "121.0171296",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.37653081765694324,
+  "addresstype": "suburb",
+  "name": "Santa Mesa",
+  "display_name": "Santa Mesa, Sixth District, Manila, Capital District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Santa Mesa",
+   "city_district": "Sixth District",
+   "city": "Manila",
+   "state_district": "Capital District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5884263",
+   "14.6044948",
+   "120.9993448",
+   "121.0261685"
+  ]
+ },
+ "reverse:14.52726,121.06339": {
+  "place_id": 260136426,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.66389,121.06947": {
+  "place_id": 259516040,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1553880,
+  "lat": "14.6333983",
+  "lon": "121.0670132",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "3rd District",
+  "display_name": "3rd District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "3rd District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5895873",
+   "14.6770967",
+   "121.0458928",
+   "121.0989231"
+  ]
+ },
+ "reverse:14.56759,121.09224": {
+  "place_id": 427036623,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323639,
+  "lat": "14.5783744",
+  "lon": "121.0934333",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig Second District",
+  "display_name": "Pasig Second District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig Second District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5338787",
+   "14.6235138",
+   "121.0783990",
+   "121.1110273"
+  ]
+ },
+ "reverse:14.52871,121.05823": {
+  "place_id": 260320124,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.56342,121.06707": {
+  "place_id": 427036622,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:14.56902,121.05239": {
+  "place_id": 425898545,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18323638,
+  "lat": "14.5690783",
+  "lon": "121.0666771",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Pasig First District",
+  "display_name": "Pasig First District, Pasig, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Pasig First District",
+   "city": "Pasig",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5446411",
+   "14.5934856",
+   "121.0515762",
+   "121.0947346"
+  ]
+ },
+ "reverse:14.50440,120.99528": {
+  "place_id": 260210918,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18345733,
+  "lat": "14.4942379",
+  "lon": "120.9944255",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Parañaque District 1",
+  "display_name": "Parañaque District 1, Parañaque, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Parañaque District 1",
+   "city": "Parañaque",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4552285",
+   "14.5332355",
+   "120.9741996",
+   "121.0203630"
+  ]
+ },
+ "reverse:14.64297,121.03732": {
+  "place_id": 259484619,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 9110317,
+  "lat": "14.6348437",
+  "lon": "121.0353490",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Scout Area",
+  "display_name": "Scout Area, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Scout Area",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6276066",
+   "14.6441894",
+   "121.0156952",
+   "121.0457671"
+  ]
+ },
+ "reverse:14.51694,121.06703": {
+  "place_id": 259400452,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.54248,121.01682": {
+  "place_id": 426791413,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "reverse:14.46696,120.96502": {
+  "place_id": 426414727,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 122139,
+  "lat": "14.4593497",
+  "lon": "120.9401912",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.472046593022794,
+  "addresstype": "city",
+  "name": "Bacoor",
+  "display_name": "Bacoor, Cavite, Calabarzon, 4102, Philippines",
+  "address": {
+   "city": "Bacoor",
+   "state": "Cavite",
+   "ISO3166-2-lvl4": "PH-CAV",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4102",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3626159",
+   "14.4939136",
+   "120.9209742",
+   "121.0115722"
+  ]
+ },
+ "reverse:14.52853,121.06230": {
+  "place_id": 259730356,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324604,
+  "lat": "14.5091217",
+  "lon": "121.0664164",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 1",
+  "display_name": "Taguig District 1, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 1",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4659604",
+   "14.5522605",
+   "121.0475789",
+   "121.1173020"
+  ]
+ },
+ "reverse:14.19422,121.06080": {
+  "place_id": 260256731,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.21842,121.01929": {
+  "place_id": 420669204,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1491095,
+  "lat": "14.2234004",
+  "lon": "120.9742825",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4360366997377273,
+  "addresstype": "town",
+  "name": "Silang",
+  "display_name": "Silang, Cavite, Calabarzon, 4118, Philippines",
+  "address": {
+   "town": "Silang",
+   "state": "Cavite",
+   "ISO3166-2-lvl4": "PH-CAV",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4118",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1327652",
+   "14.2854592",
+   "120.9214255",
+   "121.0561337"
+  ]
+ },
+ "reverse:10.31705,123.90448": {
+  "place_id": 260389284,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 12455830,
+  "lat": "10.2934946",
+  "lon": "123.9018183",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.58351481267643,
+  "addresstype": "city",
+  "name": "Cebu City",
+  "display_name": "Cebu City, Central Visayas, Philippines",
+  "address": {
+   "city": "Cebu City",
+   "region": "Central Visayas",
+   "ISO3166-2-lvl3": "PH-07",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "10.2463015",
+   "10.4962741",
+   "123.7595780",
+   "123.9302169"
+  ]
+ },
+ "reverse:14.18745,121.05215": {
+  "place_id": 260000350,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.29870,121.03431": {
+  "place_id": 257719681,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2008000,
+  "lat": "14.3134594",
+  "lon": "121.0574345",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4382681388401734,
+  "addresstype": "city",
+  "name": "Carmona",
+  "display_name": "Carmona, Cavite, Calabarzon, 4116, Philippines",
+  "address": {
+   "city": "Carmona",
+   "state": "Cavite",
+   "ISO3166-2-lvl4": "PH-CAV",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4116",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.2571450",
+   "14.3291295",
+   "121.0025807",
+   "121.0776824"
+  ]
+ },
+ "reverse:14.55067,121.02376": {
+  "place_id": 426016394,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "reverse:14.23878,121.04061": {
+  "place_id": 419894480,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1491095,
+  "lat": "14.2234004",
+  "lon": "120.9742825",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4360366997377273,
+  "addresstype": "town",
+  "name": "Silang",
+  "display_name": "Silang, Cavite, Calabarzon, 4118, Philippines",
+  "address": {
+   "town": "Silang",
+   "state": "Cavite",
+   "ISO3166-2-lvl4": "PH-CAV",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4118",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1327652",
+   "14.2854592",
+   "120.9214255",
+   "121.0561337"
+  ]
+ },
+ "reverse:14.22800,121.06400": {
+  "place_id": 257000037,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1335521,
+  "lat": "14.3141371",
+  "lon": "121.1122598",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48756610772805115,
+  "addresstype": "city",
+  "name": "Santa Rosa",
+  "display_name": "Santa Rosa, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Santa Rosa",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.2160688",
+   "14.3773194",
+   "121.0466175",
+   "121.1776541"
+  ]
+ },
+ "reverse:14.18324,121.06652": {
+  "place_id": 259277153,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.54958,121.02496": {
+  "place_id": 426016394,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "reverse:14.55888,121.02781": {
+  "place_id": 426578659,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "reverse:14.50684,121.04984": {
+  "place_id": 259812993,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324603,
+  "lat": "14.5165891",
+  "lon": "121.0474528",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 2",
+  "display_name": "Taguig District 2, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 2",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4649416",
+   "14.5685464",
+   "121.0222048",
+   "121.0669318"
+  ]
+ },
+ "reverse:14.50442,121.04522": {
+  "place_id": 260156551,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324603,
+  "lat": "14.5165891",
+  "lon": "121.0474528",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 2",
+  "display_name": "Taguig District 2, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 2",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4649416",
+   "14.5685464",
+   "121.0222048",
+   "121.0669318"
+  ]
+ },
+ "reverse:7.09775,125.64930": {
+  "place_id": 261286785,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 19145469,
+  "lat": "7.1757358",
+  "lon": "125.5822933",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672771114671546,
+  "addresstype": "city_district",
+  "name": "Buhangin District",
+  "display_name": "Buhangin District, Davao City, Davao Region, 8000, Philippines",
+  "address": {
+   "city_district": "Buhangin District",
+   "city": "Davao City",
+   "region": "Davao Region",
+   "ISO3166-2-lvl3": "PH-11",
+   "postcode": "8000",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "7.0955169",
+   "7.2559705",
+   "125.5235946",
+   "125.6635895"
+  ]
+ },
+ "reverse:7.01470,125.47530": {
+  "place_id": 260267066,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 19115996,
+  "lat": "7.0269370",
+  "lon": "125.4092332",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.18672771114671546,
+  "addresstype": "city_district",
+  "name": "Toril District",
+  "display_name": "Toril District, Davao City, Davao Region, 8000, Philippines",
+  "address": {
+   "city_district": "Toril District",
+   "city": "Davao City",
+   "region": "Davao Region",
+   "ISO3166-2-lvl3": "PH-11",
+   "postcode": "8000",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "6.9595409",
+   "7.0942431",
+   "125.2623635",
+   "125.5177541"
+  ]
+ },
+ "reverse:14.19652,121.07077": {
+  "place_id": 260000350,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.72139,120.25742": {
+  "place_id": 259434568,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 15310740,
+  "lat": "14.6779981",
+  "lon": "120.2652634",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.37244305375643855,
+  "addresstype": "town",
+  "name": "Morong",
+  "display_name": "Morong, Bataan, Central Luzon, 2108, Philippines",
+  "address": {
+   "town": "Morong",
+   "state": "Bataan",
+   "ISO3166-2-lvl4": "PH-BAN",
+   "region": "Central Luzon",
+   "ISO3166-2-lvl3": "PH-03",
+   "postcode": "2108",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5109094",
+   "14.8410794",
+   "120.1406349",
+   "120.4408407"
+  ]
+ },
+ "reverse:10.71717,122.97721": {
+  "place_id": 259824704,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 11347735,
+  "lat": "10.7372649",
+  "lon": "122.9673325",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4493085284326974,
+  "addresstype": "city",
+  "name": "Talisay",
+  "display_name": "Talisay, Negros Occidental, Negros Island Region, 6115, Philippines",
+  "address": {
+   "city": "Talisay",
+   "state": "Negros Occidental",
+   "ISO3166-2-lvl4": "PH-NEC",
+   "region": "Negros Island Region",
+   "postcode": "6115",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "10.6371665",
+   "10.7838488",
+   "122.8377460",
+   "123.2588101"
+  ]
+ },
+ "reverse:14.55611,121.02333": {
+  "place_id": 426791413,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1788556,
+  "lat": "14.5545300",
+  "lon": "121.0214595",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "District I",
+  "display_name": "District I, Makati, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "District I",
+   "city": "Makati",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5296505",
+   "14.5795004",
+   "120.9987708",
+   "121.0462475"
+  ]
+ },
+ "reverse:15.11064,120.51638": {
+  "place_id": 261809658,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 16239054,
+  "lat": "15.0726482",
+  "lon": "120.5430211",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.41335888403333815,
+  "addresstype": "town",
+  "name": "Porac",
+  "display_name": "Porac, Pampanga, Central Luzon, 2008, Philippines",
+  "address": {
+   "town": "Porac",
+   "state": "Pampanga",
+   "ISO3166-2-lvl4": "PH-PAM",
+   "region": "Central Luzon",
+   "ISO3166-2-lvl3": "PH-03",
+   "postcode": "2008",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "15.0096982",
+   "15.2220350",
+   "120.3560508",
+   "120.5954512"
+  ]
+ },
+ "reverse:14.17514,121.05875": {
+  "place_id": 259608670,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.55045,121.05443": {
+  "place_id": 259812993,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324603,
+  "lat": "14.5165891",
+  "lon": "121.0474528",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 2",
+  "display_name": "Taguig District 2, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 2",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4649416",
+   "14.5685464",
+   "121.0222048",
+   "121.0669318"
+  ]
+ },
+ "reverse:14.17980,121.05440": {
+  "place_id": 259608670,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.19559,121.05467": {
+  "place_id": 260000350,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.59800,121.08200": {
+  "place_id": 260215022,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1553880,
+  "lat": "14.6333983",
+  "lon": "121.0670132",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339771038376437,
+  "addresstype": "city_district",
+  "name": "3rd District",
+  "display_name": "3rd District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "3rd District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.5895873",
+   "14.6770967",
+   "121.0458928",
+   "121.0989231"
+  ]
+ },
+ "reverse:14.16810,121.16066": {
+  "place_id": 260256731,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.37527,120.96317": {
+  "place_id": 259437111,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1486016,
+  "lat": "14.4290216",
+  "lon": "120.9365838",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4818502855998538,
+  "addresstype": "city",
+  "name": "Imus",
+  "display_name": "Imus, Cavite, Calabarzon, 4103, Philippines",
+  "address": {
+   "city": "Imus",
+   "state": "Cavite",
+   "ISO3166-2-lvl4": "PH-CAV",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4103",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3541065",
+   "14.4463654",
+   "120.8920880",
+   "120.9816690"
+  ]
+ },
+ "reverse:14.20289,121.06574": {
+  "place_id": 259277153,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:8.45146,124.65478": {
+  "place_id": 260081742,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 2387482,
+  "lat": "8.4756417",
+  "lon": "124.6421532",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.5178522272177412,
+  "addresstype": "city",
+  "name": "Cagayan de Oro",
+  "display_name": "Cagayan de Oro, Northern Mindanao, 9000, Philippines",
+  "address": {
+   "city": "Cagayan de Oro",
+   "region": "Northern Mindanao",
+   "ISO3166-2-lvl3": "PH-10",
+   "postcode": "9000",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "8.2518174",
+   "8.6294178",
+   "124.4472134",
+   "124.7966682"
+  ]
+ },
+ "reverse:14.64711,121.03781": {
+  "place_id": 261263656,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 17877944,
+  "lat": "14.6411146",
+  "lon": "121.0469135",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 16,
+  "importance": 0.1867310437170977,
+  "addresstype": "suburb",
+  "name": "Diliman",
+  "display_name": "Diliman, 4th District, Quezon City, Eastern Manila District, Metro Manila, Philippines",
+  "address": {
+   "suburb": "Diliman",
+   "city_district": "4th District",
+   "city": "Quezon City",
+   "state_district": "Eastern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.6274437",
+   "14.6633979",
+   "121.0156952",
+   "121.0762382"
+  ]
+ },
+ "reverse:14.78005,121.07661": {
+  "place_id": 432265368,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 15662634,
+  "lat": "14.8101978",
+  "lon": "121.0474088",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4601062568822006,
+  "addresstype": "city",
+  "name": "San Jose del Monte",
+  "display_name": "San Jose del Monte, Bulacan, Central Luzon, Philippines",
+  "address": {
+   "city": "San Jose del Monte",
+   "state": "Bulacan",
+   "ISO3166-2-lvl4": "PH-BUL",
+   "region": "Central Luzon",
+   "ISO3166-2-lvl3": "PH-03",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.7673962",
+   "14.8653973",
+   "121.0165886",
+   "121.1679994"
+  ]
+ },
+ "reverse:14.36736,120.96924": {
+  "place_id": 257551384,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1486016,
+  "lat": "14.4290216",
+  "lon": "120.9365838",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.4818502855998538,
+  "addresstype": "city",
+  "name": "Imus",
+  "display_name": "Imus, Cavite, Calabarzon, 4103, Philippines",
+  "address": {
+   "city": "Imus",
+   "state": "Cavite",
+   "ISO3166-2-lvl4": "PH-CAV",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "postcode": "4103",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.3541065",
+   "14.4463654",
+   "120.8920880",
+   "120.9816690"
+  ]
+ },
+ "reverse:14.17713,121.05251": {
+  "place_id": 259608670,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1578579,
+  "lat": "14.2060217",
+  "lon": "121.1556496",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48498986659179477,
+  "addresstype": "city",
+  "name": "Calamba",
+  "display_name": "Calamba, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Calamba",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.1377030",
+   "14.2662133",
+   "121.0198169",
+   "121.2214277"
+  ]
+ },
+ "reverse:14.22087,121.05919": {
+  "place_id": 257000037,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 1335521,
+  "lat": "14.3141371",
+  "lon": "121.1122598",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.48756610772805115,
+  "addresstype": "city",
+  "name": "Santa Rosa",
+  "display_name": "Santa Rosa, Laguna, Calabarzon, Philippines",
+  "address": {
+   "city": "Santa Rosa",
+   "state": "Laguna",
+   "ISO3166-2-lvl4": "PH-LAG",
+   "region": "Calabarzon",
+   "ISO3166-2-lvl3": "PH-40",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.2160688",
+   "14.3773194",
+   "121.0466175",
+   "121.1776541"
+  ]
+ },
+ "reverse:14.55131,121.04626": {
+  "place_id": 259812993,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 18324603,
+  "lat": "14.5165891",
+  "lon": "121.0474528",
+  "class": "boundary",
+  "type": "administrative",
+  "place_rank": 14,
+  "importance": 0.21339194094758523,
+  "addresstype": "city_district",
+  "name": "Taguig District 2",
+  "display_name": "Taguig District 2, Taguig, Southern Manila District, Metro Manila, Philippines",
+  "address": {
+   "city_district": "Taguig District 2",
+   "city": "Taguig",
+   "state_district": "Southern Manila District",
+   "region": "Metro Manila",
+   "ISO3166-2-lvl3": "PH-00",
+   "country": "Philippines",
+   "country_code": "ph"
+  },
+  "boundingbox": [
+   "14.4649416",
+   "14.5685464",
+   "121.0222048",
+   "121.0669318"
+  ]
+ }
+}

@@ -1,4 +1,4 @@
-import type { Condo, Property } from "../types/data";
+import type { Project } from "../types/data";
 
 export const KINDS = ["condo", "townhouse", "house-and-lot", "lot"] as const;
 export type Kind = (typeof KINDS)[number];
@@ -17,79 +17,51 @@ export const KIND_EMOJI: Record<Kind, string> = {
   lot: "🌳",
 };
 
-/** Default condo unit size used for headline prices. */
-export const CONDO_SQM = 30;
-
 /** One shape for everything on the map, whatever its type. */
 export type Listing = {
   id: string;
   name: string;
+  developer: string;
   kind: Kind;
   city: string;
-  area: string;
+  address: string | null;
   lat: number;
   lng: number;
-  /** Condos are priced per sqm of floor area; null for other types. */
-  pricePerSqm: number | null;
-  /** Midpoint total price (condos: at CONDO_SQM). */
-  price: number;
-  floorArea: number | null;
-  lotArea: number | null;
-  rentMonthly: number | null;
+  /** Cheapest and dearest unit in the project, if the developer publishes prices. */
+  priceLow: number | null;
+  priceHigh: number | null;
+  /** Advertised starting monthly payment, if that's all that's published. */
+  monthlyFrom: number | null;
+  priceText: string | null;
+  sizeLow: number | null;
+  sizeHigh: number | null;
   status: "ready" | "preselling" | null;
-  source: string;
-  asOf: string;
-  image: { url: string; credit: string | null; license: string | null } | null;
+  turnover: string | null;
+  image: string | null;
+  url: string;
+  scrapedAt: string;
 };
 
-export function fromCondo(c: Condo): Listing {
-  const ppsqm = ((c.price_per_sqm_low ?? 0) + (c.price_per_sqm_high ?? 0)) / 2;
-  return {
-    id: c.id,
-    name: c.name,
-    kind: "condo",
-    city: c.city,
-    area: c.area,
-    lat: c.lat,
-    lng: c.lng,
-    pricePerSqm: ppsqm,
-    price: ppsqm * CONDO_SQM,
-    floorArea: CONDO_SQM,
-    lotArea: null,
-    rentMonthly: c.rent_1br_monthly,
-    status: c.turnover_status,
-    source: c.source,
-    asOf: c.as_of_date,
-    image: c.image_url
-      ? { url: c.image_url, credit: c.image_credit, license: c.image_license }
-      : null,
-  };
-}
-
-export function fromProperty(p: Property): Listing {
+export function fromProject(p: Project): Listing {
   return {
     id: p.id,
     name: p.name,
+    developer: p.developer,
     kind: p.property_type,
     city: p.city,
-    area: p.area,
+    address: p.address,
     lat: p.lat,
     lng: p.lng,
-    pricePerSqm: null,
-    price: (p.price_low + p.price_high) / 2,
-    floorArea: p.floor_area_sqm,
-    lotArea: p.lot_area_sqm,
-    rentMonthly: p.rent_monthly,
-    status: p.turnover_status,
-    source: p.source,
-    asOf: p.as_of_date,
-    image: null,
+    priceLow: p.price_low,
+    priceHigh: p.price_high,
+    monthlyFrom: p.monthly_from,
+    priceText: p.price_text,
+    sizeLow: p.size_low_sqm,
+    sizeHigh: p.size_high_sqm,
+    status: p.status,
+    turnover: p.turnover,
+    image: p.image_url,
+    url: p.source_url,
+    scrapedAt: p.scraped_at,
   };
-}
-
-/** Gross rental yield in %, or null if the listing has no rent figure. */
-export function grossYield(l: Listing): number | null {
-  return l.rentMonthly && l.price > 0
-    ? ((l.rentMonthly * 12) / l.price) * 100
-    : null;
 }

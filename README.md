@@ -3,13 +3,15 @@
 Helps people in Metro Manila decide where to live and what they can afford. It compares
 condos, townhouses, houses, and lots against your income, savings, and risk appetite.
 
-> All prices and costs are **placeholder estimates**, not real market data yet.
+> Projects and prices are scraped from developer websites (SMDC, DMCI Homes, Ayala Land
+> Premier). Where a developer doesn't publish a number, the app asks you for it instead of
+> guessing. See [docs/sources.md](docs/sources.md).
 
 ## What it does
 
-- **Properties**: a map of condos, townhouses, house and lots, and vacant lots, with filters.
-- **Living costs**: monthly rent, utilities, transport, and food per city.
-- **Offer check**: compares take-home pay and what's left over between two jobs or cities.
+- **Properties**: a map of real Metro Manila projects with their published price ranges, with
+  filters by type, status, and budget.
+- **Offer check**: compares take-home pay and what's left over between two jobs.
 - **Can I buy?**: loan payment, cash needed upfront, and an affordability verdict based on
   your risk profile. It also has a rate-rise stress test, a rent vs buy comparison, and a
   list of risks to weigh.
@@ -28,14 +30,14 @@ app/                    Next.js web app
     lib/                Pure logic, no React
       data.ts           Loads and validates the JSON
       listings.ts       One Listing shape for condos, houses, and lots
-      cost-of-living.ts Monthly costs per city
       payroll.ts        PH gross-to-net pay (SSS, PhilHealth, Pag-IBIG, tax)
       mortgage.ts       Loan math, rate shock, rent vs buy
       risk.ts           Risk profiles, property-type defaults, risk flags
       format.ts         Number formatting
     types/data.ts       Zod schemas for the JSON
-data/processed/         CSVs produced by the pipelines
-pipelines/              Python scripts that build and export the data
+data/processed/         Latest scraped CSV
+data/raw/developers/    One snapshot per scrape (price history, keep these)
+pipelines/              Scraper and exporter
 docs/                   Data sources
 ```
 
@@ -59,12 +61,11 @@ python3 -m venv .venv
 Then, from `app/`:
 
 ```bash
-npm run data:seed     # placeholder costs.csv and properties.csv
-npm run data:condos   # condos.csv: geocodes names and finds photos (needs internet)
-npm run data:export   # validates the CSVs and writes app/data/*.json
+npm run data:scrape   # scrapes the developer sites into data/processed/projects.csv (~10 min)
+npm run data:export   # validates it and writes app/data/projects.json (Metro Manila only)
 ```
 
-Run `data:export` after changing any CSV in `data/processed/`.
+The scraper caches pages for a day; add `--refresh` to fetch fresh copies.
 
 ## Assumptions to review
 

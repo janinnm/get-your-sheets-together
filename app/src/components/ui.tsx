@@ -1,7 +1,5 @@
 // Shared building blocks for the panel tabs.
 
-import { RENT_ITEMS, type RentItem } from "../lib/cost-of-living";
-
 export const INK = "#1B1340";
 
 export const chip = (active: boolean) =>
@@ -75,28 +73,6 @@ export function Row({
     >
       <span>{label}</span>
       {bold ? <b>{value}</b> : <span>{value}</span>}
-    </div>
-  );
-}
-
-export function RentItemPicker({
-  value,
-  onChange,
-}: {
-  value: RentItem;
-  onChange: (v: RentItem) => void;
-}) {
-  return (
-    <div className="mb-3 flex flex-wrap gap-2">
-      {RENT_ITEMS.map((r) => (
-        <button
-          key={r}
-          onClick={() => onChange(r)}
-          className={chip(value === r)}
-        >
-          {r}
-        </button>
-      ))}
     </div>
   );
 }

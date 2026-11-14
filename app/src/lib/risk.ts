@@ -184,11 +184,15 @@ export function riskFlags(opts: {
       text: "All repairs are on you: roof, plumbing, waterproofing. Check the area's flood history before buying.",
     });
 
-  // As an investment
-  if (l.rentMonthly && l.rentMonthly < r.monthlyOwnership)
+  if (l.priceLow === null)
     flags.push({
       level: "info",
-      text: `Renting it out (about ${peso(l.rentMonthly)}/mo) wouldn't cover the loan and upkeep (${peso(r.monthlyOwnership)}/mo).`,
+      text: `${l.developer} doesn't publish prices for ${l.name}, so this uses the price you entered. Ask for a quote with the exact unit, floor, and payment terms.`,
+    });
+  else if (l.priceHigh !== null && l.priceHigh > l.priceLow)
+    flags.push({
+      level: "info",
+      text: `${l.developer} lists ${l.name} at ${peso(l.priceLow)} to ${peso(l.priceHigh)}. The low end is usually the smallest unit on a lower floor, so get a quote for the unit you want.`,
     });
 
   const order = { high: 0, medium: 1, info: 2 };
