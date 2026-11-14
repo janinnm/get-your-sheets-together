@@ -246,6 +246,18 @@ export type RentVsBuyAssumptions = {
   sellingCostRate: number; // broker fee + capital gains tax etc. on sale, 0–1
 };
 
+/**
+ * A year of rent for a similar place, as a share of its price. Rule of thumb
+ * for Metro Manila (gross yields are often quoted at 4–6%) until there's real
+ * rental data. Used only to default the rent in the rent vs buy comparison.
+ */
+export const DEFAULT_RENT_YIELD = 0.05;
+
+/** Rent for a place like this one, rounded to the nearest ₱500. */
+export function similarRent(price: number, yieldRate = DEFAULT_RENT_YIELD) {
+  return Math.round((price * yieldRate) / 12 / 500) * 500;
+}
+
 export const DEFAULT_RENT_VS_BUY: RentVsBuyAssumptions = {
   horizonYears: 10,
   appreciation: 0.03,
@@ -264,6 +276,22 @@ export type RentVsBuyResult = {
   years: RentVsBuyYear[];
   breakEvenYear: number | null; // first year buying comes out ahead
   advantage: number; // buyer − renter at the horizon (positive = buy wins)
+  /** The pieces behind the totals, so the result can be explained step by step. */
+  breakdown: {
+    upfront: number; // down payment + closing costs (the renter invests this instead)
+    ownCostStart: number; // loan + dues and upkeep in the first month
+    rentStart: number;
+    propertyValue: number; // at the horizon
+    sellingCosts: number;
+    loanLeft: number;
+    buyerInvestments: number; // what the buyer invested when rent cost more
+    renterInvestments: number;
+    /** What the renter invests each month (owning cost − rent), first and last month. */
+    renterMonthlyStart: number;
+    renterMonthlyEnd: number;
+    /** Everything the renter put in: the upfront cash plus every monthly amount. */
+    renterPaidIn: number;
+  };
 };
 
 /**
@@ -294,10 +322,15 @@ export function rentVsBuy(opts: {
   let dues = otherOwnershipCosts;
   const years: RentVsBuyYear[] = [];
   let breakEvenYear: number | null = null;
+  let renterPaidIn = upfront;
+  const renterMonthly: number[] = [];
 
   for (let m = 1; m <= horizonMonths; m++) {
     const ownCost = (m <= loanMonths ? l.monthlyPayment : 0) + dues;
-    renterPot = renterPot * (1 + mInvest) + Math.max(0, ownCost - rent);
+    const renterAdds = Math.max(0, ownCost - rent);
+    renterMonthly.push(renterAdds);
+    renterPaidIn += renterAdds;
+    renterPot = renterPot * (1 + mInvest) + renterAdds;
     buyerPot = buyerPot * (1 + mInvest) + Math.max(0, rent - ownCost);
 
     if (m % 12 === 0) {
@@ -320,10 +353,31 @@ export function rentVsBuy(opts: {
   }
 
   const last = years[years.length - 1];
+  const propertyValue =
+    terms.price * Math.pow(1 + a.appreciation, horizonMonths / 12);
   return {
     years,
     breakEvenYear,
     advantage: last ? last.buyerNetWorth - last.renterNetWorth : 0,
+    breakdown: {
+      upfront,
+      ownCostStart:
+        (loanMonths > 0 ? l.monthlyPayment : 0) + otherOwnershipCosts,
+      rentStart: monthlyRent,
+      propertyValue,
+      sellingCosts: propertyValue * a.sellingCostRate,
+      loanLeft: remainingBalance(
+        l.loanAmount,
+        terms.annualRate,
+        terms.years,
+        horizonMonths,
+      ),
+      buyerInvestments: buyerPot,
+      renterInvestments: renterPot,
+      renterMonthlyStart: renterMonthly[0] ?? 0,
+      renterMonthlyEnd: renterMonthly[renterMonthly.length - 1] ?? 0,
+      renterPaidIn,
+    },
   };
 }
 
