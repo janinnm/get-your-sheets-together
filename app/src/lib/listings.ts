@@ -1,4 +1,4 @@
-import type { Project } from "../types/data";
+import type { Project } from "@/types/data";
 
 export const KINDS = ["condo", "townhouse", "house-and-lot", "lot"] as const;
 export type Kind = (typeof KINDS)[number];
