@@ -1,0 +1,18 @@
+# Hand-entered corrections and verified prices. No script writes this file.
+# build_projects.py merges it over data/interim/projects_scraped.csv.
+#
+# One row per project, matched on `id` (copy it from data/interim/projects_scraped.csv).
+# Fill only the cells you want to change. A blank cell keeps the scraped value.
+#
+# Prices: filling any of price_low, price_high, monthly_from or price_text marks the
+# row as a verified price, and all four are then taken from this row (a blank one
+# stays blank), so a row never mixes your numbers with scraped ones.
+# A verified price also needs price_as_of: the date of the quote, as YYYY-MM-DD.
+#
+# price_note records where a number came from, e.g. "Developer price list, Nov 2026".
+# Never put names, phone numbers or emails in it: this file is committed to git, and
+# those are personal data under the Data Privacy Act (RA 10173).
+#
+# Lines starting with # are ignored. Example row (remove the leading "# " to use it):
+# dmci-sage-residences,6100000,13800000,,P6.1M - 13.8M,,,preselling,,,,,,2026-11-20,Developer price list Nov 2026
+id,price_low,price_high,monthly_from,price_text,size_low_sqm,size_high_sqm,status,turnover,city,address,lat,lng,price_as_of,price_note

@@ -22,6 +22,18 @@ How the scraper works:
 
 Each run writes a dated snapshot to `data/raw/developers/<date>.csv`. **Keep these.** Over time they become the price history that predictions will need.
 
+## Verified prices and corrections (`data/sources/project_overrides.csv`)
+
+Prices and fixes entered by hand, for example from a developer's price list or a sales agent's quote. `pipelines/build_projects.py` merges them over the scraped data, and each project's `price_source` records which kind of price it has:
+
+| `price_source` | Meaning |
+|---|---|
+| `verified` | Entered by hand from a developer price list or quote, with the quote date in `price_as_of` |
+| `scraped` | Published on the developer's own site: an asking or marketing price |
+| `none` | No price published |
+
+`price_note` records where a verified price came from. It must never hold names, phone numbers or emails, since the file is committed and those are personal data under the Data Privacy Act (RA 10173).
+
 ## Payroll (`app/src/lib/payroll.ts`)
 
 SSS, PhilHealth, and Pag-IBIG contribution rules and the TRAIN law income tax brackets.

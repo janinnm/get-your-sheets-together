@@ -18,7 +18,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/jazz-residences-slide2.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/jazz-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-shine-residences",
@@ -39,7 +42,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Shine-Residences-Facade-Actual.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/shine-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-shell-residences",
@@ -60,7 +66,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/shell_5.jpeg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/shell-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-sea-residences",
@@ -81,7 +90,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/sea-residences.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/sea-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-grace-residences",
@@ -102,7 +114,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Grace-Residences-7.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/grace-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-light-residences",
@@ -123,7 +138,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Light-Residences-Pool-Amenity_Actual.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/light-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-leaf-residences",
@@ -144,7 +162,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Leaf-Residences-Amenity-Area-3.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/leaf-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-lush-residences",
@@ -165,7 +186,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Lush-Residences-facade.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/lush-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-trees-residences",
@@ -186,7 +210,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Trees-Residences_Amenity-Area_Actual-Photo.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/trees-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-red-residences",
@@ -207,7 +234,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Red-Residences-Pool-Amenity-Area-2.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/red-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-fame-residences",
@@ -228,7 +258,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/fame-residence.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/fame-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-fern-at-grass-residences",
@@ -249,7 +282,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Fern-at-Grass-Residences-Amenity-Area-August-2015.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/fern-at-grass-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-light-2-residences",
@@ -270,7 +306,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Light-2-Residences-Facade_Day.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/light-2-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-mint-residences",
@@ -291,7 +330,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/mint_1.jpeg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/mint-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-sands-residences",
@@ -312,7 +354,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Sands-Residences-Facade_Sunset-View.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/sands-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-twin-residences",
@@ -333,7 +378,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/twin-residences.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/twin-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-gem-residences",
@@ -354,7 +402,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Gem-Residences-Facade.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/gem-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-gold-residential-offices",
@@ -375,7 +426,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/gold-reso_18.jpeg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/gold-residential-offices\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-spring-residences",
@@ -396,7 +450,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/spring_1.jpeg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/spring-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-south-residences",
@@ -417,7 +474,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/FB_IMG_1591326214391.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/south-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-field-residences",
@@ -438,7 +498,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/field_22_.jpeg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/field-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-vine-residences",
@@ -459,7 +522,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/vine-residences-slide2.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/vine-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-bloom-residences",
@@ -480,7 +546,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Bloom-Residences-Pool-Amenity-Area_4.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/bloom-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-coast-residences",
@@ -501,7 +570,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Coast-Residences-Pool-Amenity.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/coast-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-shore-residences",
@@ -522,7 +594,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/12048.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/shore-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-shore-2-residences",
@@ -543,7 +618,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Shore-2-Residences-Facade_Dusk.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/shore-2-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-shore-3-residences",
@@ -564,7 +642,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/SM-Shore-3-Pool-Amenity-Area-2.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/shore-3-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-s-residences",
@@ -585,7 +666,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/S-Residences-Facade.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/s-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-hill-residences",
@@ -606,7 +690,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Hill-Residences-Pool-Amenity-2.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/hill-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-south-2-residences",
@@ -627,7 +714,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/South-2-Residences-Pool-Amenity-2.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/south-2-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-gold-residences",
@@ -648,7 +738,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Gold-Residences-Amenity-4.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/gold-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-sail-residences",
@@ -669,7 +762,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Sail-Residences-_Pool-Amenity.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/sail-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-air-residences",
@@ -690,7 +786,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/07\/Air-Residences-Mall-Facade.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/air-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-glam-residences",
@@ -711,7 +810,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2022\/08\/Glam-Residences-Facade.jpg",
     "source_url":"https:\/\/mysmdc.ph\/properties\/glam-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"smdc-jade-residences",
@@ -732,7 +834,10 @@
     "turnover":null,
     "image_url":"https:\/\/mysmdc.ph\/wp-content\/uploads\/2023\/08\/Screen-Shot-2023-08-10-at-11.20.42-AM-1024x563.png",
     "source_url":"https:\/\/mysmdc.ph\/properties\/jade-residences\/",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-maple-place",
@@ -753,7 +858,10 @@
     "turnover":"Linden Bldg(FEBRUARY 2020), Aspen Bldg(APRIL 2020),",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/mapple_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/maple-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-rhapsody-residences",
@@ -774,7 +882,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/rhapsody_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/rhapsody-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-oak-harbor-residences",
@@ -795,7 +906,10 @@
     "turnover":"Lauderdale Bldg(JUNE 2020), Westport Bldg(JUNE 2020),",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/oak_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/oak-harbor-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-lumiere-residences",
@@ -816,7 +930,10 @@
     "turnover":"East Tower (RFO) , West Tower (RFO), North Tower (NOVEMBER 2020)",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/lumiere_14.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/lumiere-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-maricielo-villas",
@@ -837,7 +954,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/maricielo_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/maricielo-villas.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-sonora-garden-residences",
@@ -858,7 +978,10 @@
     "turnover":"December 2023",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/sonora-garden-residences_6.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/sonora-garden-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-one-castilla-place",
@@ -879,7 +1002,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/one-castilla_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/one-castilla-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-torre-de-manila",
@@ -900,7 +1026,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/torre_14.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/torre-de-manila.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-sorrel-residences",
@@ -921,7 +1050,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/sorrel_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/sorrel-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-anissa-heights",
@@ -942,7 +1074,10 @@
     "turnover":"July 2028",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/anh-logo_orig.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/anissa-heights.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-satori-residences",
@@ -963,7 +1098,10 @@
     "turnover":"Hacana Bldg -February 2023",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/satori_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/satori-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-la-verti-residences",
@@ -984,7 +1122,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/laverti_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/la-verti-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-royal-palm-residences",
@@ -1005,7 +1146,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/royal-palm_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/royal-palm-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-mulberry-place",
@@ -1026,7 +1170,10 @@
     "turnover":"Bengaline Building: August 2020 \/ Cochine Building: October 2020",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/mulberry_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/mulberry-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-prisma-residences",
@@ -1047,7 +1194,10 @@
     "turnover":"Astra Bldg. (APRIL 2022); Celeste Bldg. (April 2023)",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/prisma_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/prisma-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-atherton",
@@ -1068,7 +1218,10 @@
     "turnover":"Oak: Aug. 2022, Helicia: Feb. 2023, Almond: Aug. 2023",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/published\/atherton_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-atherton.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-mirea-residences",
@@ -1089,7 +1242,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/mirea_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/mirea-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-birchwood",
@@ -1110,7 +1266,10 @@
     "turnover":"READY FOR OCCUPANCY",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/birchwood_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-birchwood.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-sage-residences",
@@ -1131,7 +1290,10 @@
     "turnover":"February 2028",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/sgr-logo_3.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/sage-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-accolade-place",
@@ -1152,7 +1314,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/accolade_18.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/accolade-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-fairlane-residences",
@@ -1173,7 +1338,10 @@
     "turnover":"2nd to 11th floor(Jan 2024), 12th to 22nd floor (Dec 2023), 23rd to 32nd floor (Nov",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/fairlane_17.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/fairlane-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-ivory-wood",
@@ -1194,7 +1362,10 @@
     "turnover":"Turnover Date: Anahaw Bldg (RFO), Palmira Bldg (April 2018), Lauan Bldg (July 2018)",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/ivory_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/ivory-wood.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-raya-garden-condominiums",
@@ -1215,7 +1386,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/raya-garden_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/raya-garden-condominiums.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-valeron-tower",
@@ -1236,7 +1410,10 @@
     "turnover":"July 2029",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/val-logo_orig.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-valeron-tower.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-zinnia-towers",
@@ -1257,7 +1434,10 @@
     "turnover":"READY FOR OCCUPANCY)",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/zinnia_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/zinnia-towers.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-redwoods",
@@ -1278,7 +1458,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/redwoods_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-redwoods.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-asteria-residences",
@@ -1299,7 +1482,10 @@
     "turnover":"Nerine Bldg(",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/asteria_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/asteria-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-fairway-terraces",
@@ -1320,7 +1506,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/fairway_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/fairway-terraces.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-tivoli-garden-residences",
@@ -1341,7 +1530,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/tivoli_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/tivoli-garden-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-magnolia-place",
@@ -1362,7 +1554,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/magnolia_10.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/magnolia-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-viera-residences",
@@ -1383,7 +1578,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/viera_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/viera-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-siena-park-residences",
@@ -1404,7 +1602,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/siena-park_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/siena-park-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-oriana",
@@ -1425,7 +1626,10 @@
     "turnover":"April 2026",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/oriana_7.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-oriana.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-celandine",
@@ -1446,7 +1650,10 @@
     "turnover":"DECEMBER 2021",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/celendine_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-celandine.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-flair-towers",
@@ -1467,7 +1674,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/flair_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/flair-towers.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-infina-towers",
@@ -1488,7 +1698,10 @@
     "turnover":"Sept 2021 - North Tower | 2022 - South Tower",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/infina_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/infina-towers.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-calathea-place",
@@ -1509,7 +1722,10 @@
     "turnover":"Zebrina Bldg(OCTOBER 2019), Marantina Bldg(JUNE 2020),",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/calathea_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/calathea-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-alder-residences",
@@ -1530,7 +1746,10 @@
     "turnover":"June 2024",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/alder-logo_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/alder-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-stellar-place",
@@ -1551,7 +1770,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/stellar_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/stellar-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-aston-place",
@@ -1572,7 +1794,10 @@
     "turnover":"39th floor to PH floor (March 2024), 29th floor to 38th floor (July 2024)",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/the-aston-place_2.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-aston-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-calinea-tower",
@@ -1593,7 +1818,10 @@
     "turnover":"May 2028",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/cal-logo_orig.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-calinea-tower.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-brio-tower",
@@ -1614,7 +1842,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/brio_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/brio-tower.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-cameron-residences",
@@ -1635,7 +1866,10 @@
     "turnover":"43rd-47th Penthouse Nov. 2024; 38th-42nd Jan.2025;",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/cameron2_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/cameron-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-one-delta-terraces",
@@ -1656,7 +1890,10 @@
     "turnover":"July 2029",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/odt-logo_orig.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/one-delta-terraces.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-orabella",
@@ -1677,7 +1914,10 @@
     "turnover":"June 2023",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/orabella_14.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-orabella.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-kai-garden-residences",
@@ -1698,7 +1938,10 @@
     "turnover":"Sugi Bldg. January 2023; Icho Bldg (January 2024)",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/kai_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/kai-garden-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-riverfront-residences",
@@ -1719,7 +1962,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/riverfront_17.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/riverfront-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-camden-place",
@@ -1740,7 +1986,10 @@
     "turnover":"March 2025",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/camden2_7.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-camden-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-levina-place",
@@ -1761,7 +2010,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/levina_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/levina-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-ohana-place",
@@ -1782,7 +2034,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/ohana_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/ohana-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-brixton-place",
@@ -1803,7 +2058,10 @@
     "turnover":"Sept 2021",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/brixton_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/brixton-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-amaryllis",
@@ -1824,7 +2082,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/amaryllis_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-amaryllis.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-illumina-residences-manila",
@@ -1845,7 +2106,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/illumina_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/illumina-residences-manila.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-rosewood-pointe",
@@ -1866,7 +2130,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/rosewood_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/rosewood-pointe.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-erin-heights",
@@ -1887,7 +2154,10 @@
     "turnover":"October 2027",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/erin-heights2_7.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-erin-heights.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-east-raya-gardens",
@@ -1908,7 +2178,10 @@
     "turnover":"Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/east-raya_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/east-raya-gardens.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-cypress-towers",
@@ -1929,7 +2202,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/cypress_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/cypress-towers.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-allegra-garden-place",
@@ -1950,7 +2226,10 @@
     "turnover":"July 2024",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/allegra_14.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/allegra-garden-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-sheridan-towers",
@@ -1971,7 +2250,10 @@
     "turnover":"South Tower - Nov. 2017;",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/sheridan_15.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/sheridan-towers.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-mulberry-place-2",
@@ -1992,7 +2274,10 @@
     "turnover":"Pasley: October 2026\/ Shantung: June 2027",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/mulberry_16.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/mulberry-place-2.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-arista-place",
@@ -2013,7 +2298,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/arista_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/arista-place.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-the-crestmont",
@@ -2034,7 +2322,10 @@
     "turnover":"December 2024 to September 2025",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/crestmont2_12.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/the-crestmont.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-verawood-residences",
@@ -2055,7 +2346,10 @@
     "turnover":"Now Ready for Occupancy",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/verawood_9.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/verawood-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-fortis-residences",
@@ -2076,7 +2370,10 @@
     "turnover":"December 2027",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/ftr-logo_5.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/fortis-residences.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"dmci-mahogany-place-3",
@@ -2097,7 +2394,10 @@
     "turnover":"Pre-selling: After 12 months upon reservation RFO",
     "image_url":"https:\/\/www.dmcicondohomes.com\/uploads\/1\/7\/1\/8\/17184462\/mahogany-place-3_13.png",
     "source_url":"https:\/\/www.dmcicondohomes.com\/mahogany-place-3.html",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"scraped",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-park-terraces",
@@ -2118,7 +2418,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/491acdb6194b2c2f92a670cefe5c7c9b9bfe12aa-1167x875.jpg?rect=0,133,1167,610&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/park-terraces",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-garden-towers",
@@ -2139,7 +2442,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/29fdf6f39ab0fdd766b5ea9cf9650766b545730a-2254x1576.png?rect=0,199,2254,1178&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/garden-towers",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-park-central-towers",
@@ -2160,7 +2466,10 @@
     "turnover":"Dec-25",
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/7a0f42351f3a29985a6cae88501af8a3829853aa-1498x1050.png?rect=375,255,1053,550&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/park-central-towers",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-arbor-lanes",
@@ -2181,7 +2490,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/4bfc5108d3afa6e2f911b21fe1d65851b8681e1c-6000x3334.jpg?rect=2060,967,2681,1401&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/arbor-lanes",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-gardencourt-residences",
@@ -2202,7 +2514,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/06c366a09496dd70739106e4e1274e09d02ec6fa-6000x3601.png?rect=0,1010,3029,1583&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/gardencourt-residences",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-park-villas",
@@ -2223,7 +2538,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/ec893bed2330d208aaad4a04ccdabc40e1907de0-7000x4219.jpg?rect=0,281,7000,3658&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/park-villas",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-one-serendra",
@@ -2244,7 +2562,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/42e6992702896bf92b55b544004d56cebecc9282-1900x1262.png?rect=0,135,1900,993&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/one-serendra",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-parklinks-north-and-south-towers",
@@ -2265,7 +2586,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/5803bdd40c9d2e95faf95394fb17ecb2c4a9ee2a-5832x3332.jpg?rect=0,143,5832,3047&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/parklinks-north-and-south-towers",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-one-vertis-plaza",
@@ -2286,7 +2610,10 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/9611662fa28be5931e512fdb1413b1c18a22b459-1430x1100.png?rect=363,341,796,416&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/one-vertis-plaza",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   },
   {
     "id":"alp-the-suites-at-one-bonifacio-high-street",
@@ -2307,6 +2634,9 @@
     "turnover":null,
     "image_url":"https:\/\/cdn.sanity.io\/images\/4f3ey4m9\/alr-brands-production\/c3a1bd067fb8effc45da612269ce66f67eb44b12-1100x529.jpg?rect=44,0,1012,529&w=1200&h=627&fit=crop&auto=format",
     "source_url":"https:\/\/www.ayalalandpremier.com\/properties\/the-suites-at-one-bonifacio-high-street",
-    "scraped_at":"2026-11-14"
+    "scraped_at":"2026-11-14",
+    "price_source":"none",
+    "price_as_of":"2026-11-14",
+    "price_note":null
   }
 ]

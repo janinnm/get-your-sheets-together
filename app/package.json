@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "postinstall": "node -e \"require('node:fs').copyFileSync('node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs', 'public/maplibre-gl-worker.mjs')\"",
+    "data": "npm run data:scrape && npm run data:rebuild",
     "data:scrape": "../.venv/bin/python ../pipelines/scrape_developers.py",
+    "data:rebuild": "npm run data:build && npm run data:export",
+    "data:build": "../.venv/bin/python ../pipelines/build_projects.py",
     "data:export": "../.venv/bin/python ../pipelines/export.py",
     "dev": "next dev",
     "build": "next build",

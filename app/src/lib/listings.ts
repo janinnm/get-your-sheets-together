@@ -40,6 +40,10 @@ export type Listing = {
   image: string | null;
   url: string;
   scrapedAt: string;
+  /** "verified" (developer price list), "scraped" (asking price on their site), or "none". */
+  priceSource: Project["price_source"];
+  priceAsOf: string | null;
+  priceNote: string | null;
 };
 
 export function fromProject(p: Project): Listing {
@@ -63,5 +67,8 @@ export function fromProject(p: Project): Listing {
     image: p.image_url,
     url: p.source_url,
     scrapedAt: p.scraped_at,
+    priceSource: p.price_source,
+    priceAsOf: p.price_as_of,
+    priceNote: p.price_note,
   };
 }
