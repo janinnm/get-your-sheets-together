@@ -181,7 +181,49 @@ export function riskFlags(opts: {
   if (l.kind === "house-and-lot" || l.kind === "townhouse")
     flags.push({
       level: "info",
-      text: "All repairs are on you: roof, plumbing, waterproofing. Check the area's flood history before buying.",
+      text: "All repairs are on you: roof, plumbing, waterproofing.",
+    });
+
+  // Flood (Project NOAH 100-year map). A condo unit upstairs stays dry, but the
+  // lobby, parking, power room, and the roads around it don't.
+  const floodEffect =
+    l.kind === "condo"
+      ? "Upper floors stay dry, but parking, elevators, power, and the roads out can be cut off for days."
+      : "Expect water inside the home, damage to furniture and wiring, and costly repairs.";
+  if (l.floodLevel === "high")
+    flags.push({
+      level: profile === "aggressive" ? "medium" : "high",
+      text: `${l.name} is in a high flood hazard zone (over 1.5 m in a heavy-rain event, per Project NOAH). ${floodEffect}`,
+    });
+  else if (l.floodLevel === "medium")
+    flags.push({
+      level: safe ? "high" : "medium",
+      text: `${l.name} is in a medium flood hazard zone (0.5–1.5 m in a heavy-rain event, per Project NOAH). ${floodEffect}`,
+    });
+  else if (l.floodLevel === "low")
+    flags.push({
+      level: "info",
+      text: `${l.name} is in a low flood hazard zone (up to 0.5 m in a heavy-rain event, per Project NOAH). Ask about drainage and how the area did in recent typhoons.`,
+    });
+
+  // Liquefaction (PHIVOLCS). Common on reclaimed bay land and river deltas. Towers sit
+  // on deep piles engineered for it; houses on shallow footings can tilt or crack.
+  if (l.liquefactionLevel === "high")
+    flags.push(
+      l.kind === "condo"
+        ? {
+            level: "medium",
+            text: `${l.name} is on ground with high liquefaction potential (PHIVOLCS): in a strong earthquake the soil can turn soft. Towers are built on deep piles for this, so ask the developer for the soil test and foundation design. Expect damaged roads, pipes, and parking around it.`,
+          }
+        : {
+            level: safe ? "high" : "medium",
+            text: `${l.name} is on ground with high liquefaction potential (PHIVOLCS): in a strong earthquake the soil can turn soft and houses can sink, tilt, or crack. Ask for a soil test, and budget for deeper foundations if you build.`,
+          },
+    );
+  else if (l.liquefactionLevel === "moderate")
+    flags.push({
+      level: "info",
+      text: `${l.name} is on ground with moderate liquefaction potential (PHIVOLCS). Ask the developer about the soil test and foundation design.`,
     });
 
   if (l.priceLow === null)

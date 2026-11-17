@@ -9,6 +9,7 @@
     "data:rebuild": "npm run data:build && npm run data:export",
     "data:build": "../.venv/bin/python ../pipelines/build_projects.py",
     "data:export": "../.venv/bin/python ../pipelines/export.py",
+    "data:hazards": "../.venv/bin/python ../pipelines/hazards.py",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
