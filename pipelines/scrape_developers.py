@@ -26,6 +26,7 @@ import time
 from datetime import date, datetime
 
 import requests
+from tqdm import tqdm
 
 from schema import GEOCODE_CACHE, ROOT, SCRAPED_CSV as OUT, SCRAPED_FIELDS as FIELDS, SNAPSHOTS
 
@@ -235,7 +236,7 @@ def ncr_city_at(lat: float, lng: float) -> str | None:
 
 def scrape_smdc() -> list[dict]:
     rows = []
-    for url in sitemap_urls("https://mysmdc.ph/properties-sitemap.xml"):
+    for url in tqdm(sitemap_urls("https://mysmdc.ph/properties-sitemap.xml"), desc="SMDC"):
         slug = url.rstrip("/").rsplit("/", 1)[-1]
         if slug == "properties":
             continue
@@ -279,7 +280,7 @@ def scrape_smdc() -> list[dict]:
 
 def scrape_dmci() -> list[dict]:
     rows = []
-    for url in sitemap_urls("https://www.dmcicondohomes.com/sitemap.xml"):
+    for url in tqdm(sitemap_urls("https://www.dmcicondohomes.com/sitemap.xml"), desc="DMCI"):
         page = fetch(url)
         lines = text_lines(page)
         price_text = after(lines, "Price Range")
@@ -318,9 +319,9 @@ def scrape_dmci() -> list[dict]:
 
 def scrape_alp() -> list[dict]:
     rows = []
-    for url in sitemap_urls("https://www.ayalalandpremier.com/sitemap.xml"):
-        if "/properties/" not in url:
-            continue
+    # Filter before the progress bar so its total counts only the pages we fetch.
+    urls = [u for u in sitemap_urls("https://www.ayalalandpremier.com/sitemap.xml") if "/properties/" in u]
+    for url in tqdm(urls, desc="Ayala Land Premier"):
         page = fetch(url)
         lines = text_lines(page)
         ptype = (after(lines, "Type of Property") or "").lower()
@@ -360,7 +361,8 @@ def main():
         print(f"{name}: {len(got)} projects")
         rows += got
 
-    for r in rows:
+    # The slow part: each uncached Nominatim lookup waits 1.1s.
+    for r in tqdm(rows, desc="Geocoding"):
         r["scraped_at"] = TODAY.isoformat()
         # Pages without coordinates: look up the street address, then the project name.
         # Only for projects whose text already places them in Metro Manila.
