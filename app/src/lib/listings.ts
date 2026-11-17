@@ -17,6 +17,26 @@ export const KIND_EMOJI: Record<Kind, string> = {
   lot: "🌳",
 };
 
+export type FloodLevel = "none" | "low" | "medium" | "high";
+
+/** Project NOAH 100-year flood map levels, by expected flood depth. */
+export const FLOOD_LABEL: Record<FloodLevel, string> = {
+  none: "Outside mapped flood zones",
+  low: "Low flood risk (up to 0.5 m)",
+  medium: "Medium flood risk (0.5–1.5 m)",
+  high: "High flood risk (over 1.5 m)",
+};
+
+export type LiquefactionLevel = "none" | "low" | "moderate" | "high";
+
+/** PHIVOLCS liquefaction potential: how likely the ground turns soft in a strong quake. */
+export const LIQUEFACTION_LABEL: Record<LiquefactionLevel, string> = {
+  none: "Outside mapped liquefaction zones",
+  low: "Low liquefaction potential",
+  moderate: "Moderate liquefaction potential",
+  high: "High liquefaction potential",
+};
+
 /** One shape for everything on the map, whatever its type. */
 export type Listing = {
   id: string;
@@ -44,6 +64,8 @@ export type Listing = {
   priceSource: Project["price_source"];
   priceAsOf: string | null;
   priceNote: string | null;
+  floodLevel: FloodLevel;
+  liquefactionLevel: LiquefactionLevel;
 };
 
 export function fromProject(p: Project): Listing {
@@ -70,5 +92,7 @@ export function fromProject(p: Project): Listing {
     priceSource: p.price_source,
     priceAsOf: p.price_as_of,
     priceNote: p.price_note,
+    floodLevel: p.flood_level,
+    liquefactionLevel: p.liquefaction_level,
   };
 }
