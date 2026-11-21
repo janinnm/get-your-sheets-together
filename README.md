@@ -35,9 +35,16 @@ app/                    Next.js web app
       risk.ts           Risk profiles, property-type defaults, risk flags
       format.ts         Number formatting
     types/data.ts       Zod schemas for the JSON
-data/processed/         Latest scraped CSV
-data/raw/developers/    One snapshot per scrape (price history, keep these)
-pipelines/              Scraper and exporter
+data/
+  sources/              Hand-entered data: verified prices and corrections (edit these)
+  interim/              Latest scrape (generated, don't edit by hand)
+  processed/            Scrape + your sources merged (generated, don't edit by hand)
+  raw/developers/       One snapshot per scrape (price history, keep these)
+pipelines/
+  scrape_developers.py  Developer sites -> data/interim/
+  build_projects.py     data/interim/ + data/sources/ -> data/processed/
+  export.py             data/processed/ -> app/data/ (Metro Manila only)
+  schema.py             Paths and validation rules shared by all three
 docs/                   Data sources
 ```
 
@@ -61,9 +68,26 @@ python3 -m venv .venv
 Then, from `app/`:
 
 ```bash
-npm run data:scrape   # scrapes the developer sites into data/processed/projects.csv (~10 min)
-npm run data:export   # validates it and writes app/data/projects.json (Metro Manila only)
+npm run data           # everything: scrape (~10 min), then rebuild
+npm run data:rebuild   # merge data/sources/ and re-export, without scraping
 ```
+
+Each file has exactly one writer, so a scrape never overwrites what you entered by hand:
+
+```
+scrape_developers.py  ->  data/interim/projects_scraped.csv
+you                   ->  data/sources/project_overrides.csv
+build_projects.py     ->  data/processed/projects.csv
+export.py             ->  app/data/projects.json
+```
+
+**Adding a verified price or fixing a project:** add a row to
+`data/sources/project_overrides.csv` (instructions are at the top of the file), then run
+`npm run data:rebuild`. Every project gets a `price_source` of `verified` (a price you
+entered from a developer price list), `scraped` (an asking price from the developer's
+site), or `none`. The build stops with a message on a mistyped id, a non-number price,
+an inverted price range, or a verified price without a date, and warns when a verified
+price is over six months old.
 
 The scraper caches pages for a day; add `--refresh` to fetch fresh copies.
 

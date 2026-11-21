@@ -1,50 +1,35 @@
-"""Validates data/processed/projects.csv and writes the Metro Manila projects to app/data/projects.json."""
-from pathlib import Path
+"""Validates data/processed/projects.csv and writes the Metro Manila projects to app/data/projects.json.
 
+Usage: python pipelines/export.py
+"""
 import pandas as pd
-import pandera.pandas as pa
 
-ROOT = Path(__file__).resolve().parents[1]
-PROCESSED = ROOT / "data" / "processed"
-OUT = ROOT / "app" / "data"
-
-KINDS = ["condo", "townhouse", "house-and-lot", "lot"]
-TEXT = {"nullable": True, "coerce": True}
-
-projects_schema = pa.DataFrameSchema({
-    "id": pa.Column(str, unique=True),
-    "name": pa.Column(str),
-    "developer": pa.Column(str),
-    "property_type": pa.Column(str, pa.Check.isin(KINDS)),
-    "city": pa.Column(str),
-    "address": pa.Column(str, **TEXT),
-    "lat": pa.Column(float, pa.Check.in_range(14.3, 14.8)),  # Metro Manila
-    "lng": pa.Column(float, pa.Check.in_range(120.9, 121.2)),
-    "price_low": pa.Column(float, pa.Check.ge(100_000), nullable=True),
-    "price_high": pa.Column(float, pa.Check.ge(100_000), nullable=True),
-    "monthly_from": pa.Column(float, pa.Check.in_range(1_000, 1_000_000), nullable=True),
-    "price_text": pa.Column(str, **TEXT),
-    "size_low_sqm": pa.Column(float, pa.Check.gt(0), nullable=True),
-    "size_high_sqm": pa.Column(float, pa.Check.gt(0), nullable=True),
-    "status": pa.Column(str, pa.Check.isin(["ready", "preselling"]), nullable=True),
-    "turnover": pa.Column(str, **TEXT),
-    "image_url": pa.Column(str, **TEXT),
-    "source_url": pa.Column(str),
-    "scraped_at": pa.Column(str),
-}, checks=pa.Check(
-    lambda df: df["price_low"].isna() | (df["price_low"] <= df["price_high"]),
-    error="price_low > price_high",
-))
+from schema import PROCESSED_FIELDS, PROJECTS_CSV, PROJECTS_JSON, ROOT, export_schema, processed_schema
 
 
 def export_projects():
-    df = pd.read_csv(PROCESSED / "projects.csv")
-    # The app covers Metro Manila; the scraper's city is set only for points inside it.
-    ncr = df[df["city"].notna() & df["lat"].notna() & df["property_type"].notna()].copy()
-    ncr = projects_schema.validate(ncr)  # fails loudly on bad data
-    OUT.mkdir(parents=True, exist_ok=True)
-    ncr.to_json(OUT / "projects.json", orient="records", indent=2, force_ascii=False)
-    print(f"Exported {len(ncr)} of {len(df)} projects (Metro Manila only)")
+    df = processed_schema.validate(pd.read_csv(PROJECTS_CSV), lazy=True)
+
+    # The app covers Metro Manila. The scraper sets `city` only for points inside it,
+    # so a blank city means "elsewhere in the Philippines", which is expected.
+    reasons = {
+        "outside Metro Manila": df["city"].isna(),
+        "in Metro Manila but no map pin (add lat/lng in data/sources/project_overrides.csv)":
+            df["city"].notna() & df["lat"].isna(),
+        "no property type": df["city"].notna() & df["lat"].notna() & df["property_type"].isna(),
+    }
+    keep = ~pd.concat(reasons.values(), axis=1).any(axis=1)
+    ncr = export_schema.validate(df[keep][PROCESSED_FIELDS], lazy=True)  # fails loudly on bad data
+
+    PROJECTS_JSON.parent.mkdir(parents=True, exist_ok=True)
+    ncr.to_json(PROJECTS_JSON, orient="records", indent=2, force_ascii=False)
+
+    print(f"Exported {len(ncr)} of {len(df)} projects to {PROJECTS_JSON.relative_to(ROOT)}")
+    for reason, mask in reasons.items():
+        if mask.any():
+            ids = df.loc[mask, "id"].tolist()
+            sample = ", ".join(ids[:4]) + (", ..." if len(ids) > 4 else "")
+            print(f"  skipped {len(ids)}, {reason}: {sample}")
 
 
 if __name__ == "__main__":

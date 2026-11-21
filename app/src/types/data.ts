@@ -24,6 +24,16 @@ export const Project = z.object({
   image_url: z.string().nullable(),
   source_url: z.string(),
   scraped_at: z.string(),
+  /**
+   * Where the price came from (set by pipelines/build_projects.py):
+   * "verified" a developer price list entered by hand, "scraped" an asking
+   * price from the developer's site, "none" nothing published.
+   */
+  price_source: z.enum(["verified", "scraped", "none"]),
+  /** Date of the price: the quote date if verified, else the scrape date. */
+  price_as_of: z.string().nullable(),
+  /** Where a verified price came from, e.g. "Developer price list, Nov 2026". */
+  price_note: z.string().nullable(),
 });
 
 export type Project = z.infer<typeof Project>;

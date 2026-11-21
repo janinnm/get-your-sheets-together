@@ -7,8 +7,11 @@ Sources (project pages are listed in each site's sitemap and allowed by robots.t
   - ayalalandpremier.com  Ayala Land Premier. No prices; status, sizes, and coordinates.
 
 Writes:
-  data/raw/developers/<date>.csv   snapshot of this run (keep every run: it is price history)
-  data/processed/projects.csv      latest snapshot, read by export.py
+  data/raw/developers/<date>.csv      snapshot of this run (keep every run: it is price history)
+  data/interim/projects_scraped.csv   latest snapshot, read by build_projects.py
+
+Never hand-edit either file: put corrections and verified prices in
+data/sources/project_overrides.csv, which build_projects.py merges in.
 
 Pages are cached in .cache/html/ for a day so re-runs don't hit the sites again.
 Usage: python pipelines/scrape_developers.py [--refresh]
@@ -21,27 +24,18 @@ import re
 import sys
 import time
 from datetime import date, datetime
-from pathlib import Path
 
 import requests
+from tqdm import tqdm
 
-ROOT = Path(__file__).resolve().parents[1]
+from schema import GEOCODE_CACHE, ROOT, SCRAPED_CSV as OUT, SCRAPED_FIELDS as FIELDS, SNAPSHOTS
+
 CACHE = ROOT / ".cache" / "html"
-GEOCODE_CACHE = ROOT / "data" / "raw" / "geocode_cache.json"
-SNAPSHOTS = ROOT / "data" / "raw" / "developers"
-OUT = ROOT / "data" / "processed" / "projects.csv"
 
 HEADERS = {"User-Agent": "get-your-sheets-together/0.1 (personal research project)"}
 DELAY_S = 2.0  # pause between live requests
 CACHE_MAX_AGE_S = 24 * 3600
 TODAY = date.today()
-
-FIELDS = [
-    "id", "name", "developer", "property_type", "city", "address", "lat", "lng",
-    "price_low", "price_high", "monthly_from", "price_text",
-    "size_low_sqm", "size_high_sqm", "status", "turnover", "image_url",
-    "source_url", "scraped_at",
-]
 
 # Metro Manila cities, matched against addresses. Order matters: "Pasay" before "Pasig" is irrelevant,
 # but "Manila" must come last so "Metro Manila" in an address doesn't win over the real city.
@@ -87,8 +81,11 @@ def text_lines(page: str) -> list[str]:
     return [re.sub(r"\s+", " ", line).strip() for line in t.split("\n") if line.strip()]
 
 
+# Field labels on the project pages. A label followed directly by another label means the
+# first field is empty (Ayala Land Premier's "LOCATION" is sometimes followed by "TURNOVER DATE").
 LABELS = {"price", "price range", "location", "address", "project type", "turn-over date", "status",
-          "description", "share it", "unit size range", "lot size", "type of property"}
+          "description", "share it", "unit size range", "lot size", "type of property",
+          "turnover date", "completion date"}
 
 
 def after(lines: list[str], label: str, exact_case: bool = False) -> str | None:
@@ -239,7 +236,7 @@ def ncr_city_at(lat: float, lng: float) -> str | None:
 
 def scrape_smdc() -> list[dict]:
     rows = []
-    for url in sitemap_urls("https://mysmdc.ph/properties-sitemap.xml"):
+    for url in tqdm(sitemap_urls("https://mysmdc.ph/properties-sitemap.xml"), desc="SMDC"):
         slug = url.rstrip("/").rsplit("/", 1)[-1]
         if slug == "properties":
             continue
@@ -283,7 +280,7 @@ def scrape_smdc() -> list[dict]:
 
 def scrape_dmci() -> list[dict]:
     rows = []
-    for url in sitemap_urls("https://www.dmcicondohomes.com/sitemap.xml"):
+    for url in tqdm(sitemap_urls("https://www.dmcicondohomes.com/sitemap.xml"), desc="DMCI"):
         page = fetch(url)
         lines = text_lines(page)
         price_text = after(lines, "Price Range")
@@ -322,9 +319,9 @@ def scrape_dmci() -> list[dict]:
 
 def scrape_alp() -> list[dict]:
     rows = []
-    for url in sitemap_urls("https://www.ayalalandpremier.com/sitemap.xml"):
-        if "/properties/" not in url:
-            continue
+    # Filter before the progress bar so its total counts only the pages we fetch.
+    urls = [u for u in sitemap_urls("https://www.ayalalandpremier.com/sitemap.xml") if "/properties/" in u]
+    for url in tqdm(urls, desc="Ayala Land Premier"):
         page = fetch(url)
         lines = text_lines(page)
         ptype = (after(lines, "Type of Property") or "").lower()
@@ -364,7 +361,8 @@ def main():
         print(f"{name}: {len(got)} projects")
         rows += got
 
-    for r in rows:
+    # The slow part: each uncached Nominatim lookup waits 1.1s.
+    for r in tqdm(rows, desc="Geocoding"):
         r["scraped_at"] = TODAY.isoformat()
         # Pages without coordinates: look up the street address, then the project name.
         # Only for projects whose text already places them in Metro Manila.
@@ -379,15 +377,16 @@ def main():
         if r["lat"] is not None:
             r["city"] = ncr_city_at(r["lat"], r["lng"])
 
-    SNAPSHOTS.mkdir(parents=True, exist_ok=True)
     for path in (SNAPSHOTS / f"{TODAY.isoformat()}.csv", OUT):
+        path.parent.mkdir(parents=True, exist_ok=True)
         with open(path, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=FIELDS)
             w.writeheader()
             w.writerows(rows)
     ncr = [r for r in rows if r["city"]]
     print(f"Total {len(rows)}; in Metro Manila {len(ncr)}; with a total price {sum(1 for r in ncr if r['price_low'])}")
-    print(f"Wrote {OUT.relative_to(ROOT)} and data/raw/developers/{TODAY.isoformat()}.csv")
+    print(f"Wrote {OUT.relative_to(ROOT)} and {SNAPSHOTS.relative_to(ROOT)}/{TODAY.isoformat()}.csv")
+    print("Next: python pipelines/build_projects.py")
 
 
 if __name__ == "__main__":
