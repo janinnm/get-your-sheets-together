@@ -9,10 +9,25 @@ import Map, {
 } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { short } from "../lib/format";
-import { KINDS, KIND_EMOJI, KIND_LABEL, type Listing } from "../lib/listings";
+import {
+  FLOOD_LABEL,
+  KIND_EMOJI,
+  KIND_LABEL,
+  type Listing,
+} from "../lib/listings";
 import { INK } from "./ui";
 import Logo from "./Logo";
-import PropertiesTab, { matches, type Filters } from "./tabs/PropertiesTab";
+import {
+  HazardControls,
+  HazardSources,
+  NO_HAZARDS,
+  type HazardSet,
+} from "./HazardLayers";
+import PropertiesTab, {
+  matches,
+  NO_FILTERS,
+  type Filters,
+} from "./tabs/PropertiesTab";
 import OfferCheck from "./tabs/OfferCheck";
 import BuyCheck from "./tabs/BuyCheck";
 
@@ -36,11 +51,8 @@ export default function Explorer({ listings }: { listings: Listing[] }) {
   const [hovered, setHovered] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [bounds, setBounds] = useState<LngLatBounds | null>(null);
-  const [filters, setFilters] = useState<Filters>({
-    kinds: new Set(KINDS),
-    status: "all",
-    budget: null,
-  });
+  const [filters, setFilters] = useState<Filters>(NO_FILTERS);
+  const [hazards, setHazards] = useState<HazardSet>(NO_HAZARDS);
   const [buyId, setBuyId] = useState(listings[0]?.id ?? "");
 
   const developers = useMemo(
@@ -140,6 +152,7 @@ export default function Explorer({ listings }: { listings: Listing[] }) {
           onClick={() => setSelected(null)}
         >
           <NavigationControl position="top-right" />
+          <HazardSources on={hazards} />
           {filtered.map((l) => {
             const active = isActive(l.id);
             return (
@@ -158,16 +171,29 @@ export default function Explorer({ listings }: { listings: Listing[] }) {
                   onMouseLeave={() => setHovered(null)}
                   aria-label={`${KIND_LABEL[l.kind]}: ${l.name}, ${l.priceLow ? `from ${short(l.priceLow)}` : "price on request"}`}
                   style={{ background: active ? INK : color(l.developer) }}
-                  className={`rounded-full border-2 border-[#1B1340] px-3 py-1 text-sm font-extrabold shadow-[2px_2px_0_0_#1B1340] transition ${
+                  className={`relative rounded-full border-2 border-[#1B1340] px-3 py-1 text-sm font-extrabold shadow-[2px_2px_0_0_#1B1340] transition ${
                     active ? "z-10 scale-110 text-white" : "text-[#1B1340]"
                   }`}
                 >
                   {KIND_EMOJI[l.kind]} {l.priceLow ? short(l.priceLow) : "₱?"}
+                  {(l.floodLevel === "medium" || l.floodLevel === "high") && (
+                    <span
+                      aria-label={FLOOD_LABEL[l.floodLevel]}
+                      title={FLOOD_LABEL[l.floodLevel]}
+                      className={`absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full border-2 border-[#1B1340] text-[10px] ${
+                        l.floodLevel === "high" ? "bg-[#FCA5A5]" : "bg-[#FDE047]"
+                      }`}
+                    >
+                      🌊
+                    </span>
+                  )}
                 </button>
               </Marker>
             );
           })}
         </Map>
+
+        <HazardControls on={hazards} setOn={setHazards} />
       </div>
 
       {/* Floating panel: bottom sheet on mobile, side card on desktop */}
