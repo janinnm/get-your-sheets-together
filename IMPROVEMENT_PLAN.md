@@ -2,7 +2,7 @@
 
 > This file sums up planning discussions about where to take the app next.
 > It is written so that a reader (human or LLM) with no prior context can review it, critique it,
-> and help carry it out. Last updated: 2026-11-17.
+> and help carry it out. Last updated: 2026-11-22.
 
 ---
 
@@ -10,13 +10,11 @@
 
 **What the app is:** a map-based tool that helps people in Metro Manila decide what property they can
 afford to buy (a condo, townhouse, house and lot, or lot), based on their income, savings, and risk
-appetite. Three tabs:
+appetite. Two tabs:
 
 - **Properties:** a map of real Metro Manila projects from developer websites, with published price
   ranges or advertised monthly payments, status (ready or preselling), and photos. Filters by property
   type, status, and budget. The list follows the map viewport.
-- **Offer check:** compares take-home pay and what's left over between a current job and an offer.
-  Works out PH deductions (SSS, PhilHealth, Pag-IBIG, TRAIN-law income tax).
 - **Can I buy?:** for a chosen property, the loan payment, cash needed upfront (down payment and
   closing costs), monthly ownership costs (dues, tax, upkeep), and an affordability verdict that
   depends on a risk profile (conservative, balanced, aggressive). It also has a rate-rise stress test,
@@ -73,8 +71,6 @@ buy it?" with real projects and real prices, their own numbers, and an honest vi
 
 **Who it's for:**
 - **First-time buyers** checking what fits their income, savings, and risk appetite
-- **People weighing a job offer** who want to know what it changes about what they can afford
-  (Offer check feeds Can I buy?)
 - **People deciding between renting and buying** (rent vs buy, rate-rise stress test)
 
 **Principles:**
@@ -116,13 +112,7 @@ a broker or lawyer before taking money.
   vacancy and management. **Blocked on data:** the pipeline has no rent data, so a rent source is
   needed before any yield can be shown.
 
-### #3: Offer check as its own page that brings traffic
-- No direct revenue. It brings free users who then see the map.
-- Standalone page (for example "Philippines take-home pay calculator").
-- Shareable result image ("+₱12,400/month if I take this offer").
-- Result links to "Properties near your new office within budget," which feeds Can I buy? and #1.
-
-### #4: Guest features and a business portal (decision: no required consumer accounts)
+### #3: Guest features and a business portal (decision: no required consumer accounts)
 **Decision:** people search for housing rarely, so **consumer accounts are not required**. Accounts are only for businesses.
 
 | Need | No-account version |
@@ -144,7 +134,6 @@ a broker or lawyer before taking money.
 - Rent and living-cost data sources (see Section 4)
 - Bedspace listings
 - More developers and cities outside Metro Manila
-- Selling Offer check to HR teams and recruiters
 - Mortgage and moving referrals
 - Sponsored map pins
 
@@ -228,7 +217,7 @@ The Python pipelines keep producing static JSON for the free map.
 |---|---|
 | 1–2 | ~~Fix the data pipeline~~ (done, PR #4); verified prices for one area including 5–10 preselling projects; `price_source` badge in the app |
 | 2–3 | Backend: inquiry endpoint and notifications, email alerts, Postgres |
-| 3–4 | Inquiry button live; Offer check landing page and share card |
+| 3–4 | Inquiry button live |
 | 5–6 | Net-yield and cash-flow calculator, payment and premium tier (needs a rent data source first) |
 | After | Pitch 2–3 developers or brokers with inquiry numbers; build the business portal once a partner signs |
 
