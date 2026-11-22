@@ -13,18 +13,16 @@ import { KINDS, KIND_EMOJI, KIND_LABEL, type Listing } from "../lib/listings";
 import { INK } from "./ui";
 import Logo from "./Logo";
 import PropertiesTab, { matches, type Filters } from "./tabs/PropertiesTab";
-import OfferCheck from "./tabs/OfferCheck";
-import BuyCheck from "./tabs/BuyCheck";
+import BuyTab from "./tabs/BuyTab";
 
 setWorkerUrl("/maplibre-gl-worker.mjs");
 
 const STYLE = "https://tiles.openfreemap.org/styles/liberty"; // free, no API key
 const PALETTE = ["#FF8FA3", "#7DD3FC", "#BEF264", "#FFB84D", "#A78BFA"];
 
-type Tab = "homes" | "offer" | "buy";
+type Tab = "homes" | "buy";
 const TABS: [Tab, string, string][] = [
   ["homes", "Properties", "🏘️"],
-  ["offer", "Offer check", "🧮"],
   ["buy", "Can I buy?", "🔑"],
 ];
 
@@ -118,9 +116,8 @@ export default function Explorer({ listings }: { listings: Listing[] }) {
         color={color}
       />
     ),
-    offer: <OfferCheck />,
     buy: listings.length > 0 && (
-      <BuyCheck listings={listings} listingId={buyId} onPick={setBuyId} />
+      <BuyTab listings={listings} listingId={buyId} onPick={setBuyId} />
     ),
   };
 

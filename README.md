@@ -11,7 +11,6 @@ condos, townhouses, houses, and lots against your income, savings, and risk appe
 
 - **Properties**: a map of real Metro Manila projects with their published price ranges, with
   filters by type, status, and budget.
-- **Offer check**: compares take-home pay and what's left over between two jobs.
 - **Can I buy?**: loan payment, cash needed upfront, and an affordability verdict based on
   your risk profile. It also has a rate-rise stress test, a rent vs buy comparison, and a
   list of risks to weigh.
@@ -26,7 +25,11 @@ app/                    Next.js web app
     components/
       Explorer.tsx      Map, side panel, and state shared across tabs
       ui.tsx            Shared styles and small UI pieces
-      tabs/             One component per panel tab
+      tabs/
+        PropertiesTab.tsx  Properties: filters and the project list
+        BuyTab.tsx         Can I buy?: inputs and the math shared by its sections
+        buy/               One component per Can I buy? section (verdict, risks,
+                           rate rise, rent vs buy, property picker)
     lib/                Pure logic, no React
       data.ts           Loads and validates the JSON
       listings.ts       One Listing shape for condos, houses, and lots
