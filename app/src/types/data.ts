@@ -34,6 +34,10 @@ export const Project = z.object({
   price_as_of: z.string().nullable(),
   /** Where a verified price came from, e.g. "Developer price list, Nov 2026". */
   price_note: z.string().nullable(),
+  /** Hazard at the project's location on Project NOAH's 100-year flood map (see pipelines/hazards.py). */
+  flood_level: z.enum(["none", "low", "medium", "high"]),
+  /** Liquefaction potential at the location on PHIVOLCS's hazard map. */
+  liquefaction_level: z.enum(["none", "low", "moderate", "high"]),
 });
 
 export type Project = z.infer<typeof Project>;

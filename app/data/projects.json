@@ -21,7 +21,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-shine-residences",
@@ -45,7 +47,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-shell-residences",
@@ -69,7 +73,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-sea-residences",
@@ -93,7 +99,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-grace-residences",
@@ -117,7 +125,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-light-residences",
@@ -141,7 +151,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-leaf-residences",
@@ -165,7 +177,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-lush-residences",
@@ -189,7 +203,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-trees-residences",
@@ -213,7 +229,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-red-residences",
@@ -237,7 +255,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"moderate"
   },
   {
     "id":"smdc-fame-residences",
@@ -261,7 +281,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-fern-at-grass-residences",
@@ -285,7 +307,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-light-2-residences",
@@ -309,7 +333,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-mint-residences",
@@ -333,7 +359,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-sands-residences",
@@ -357,7 +385,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-twin-residences",
@@ -381,7 +411,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-gem-residences",
@@ -405,7 +437,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-gold-residential-offices",
@@ -429,7 +463,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-spring-residences",
@@ -453,7 +489,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-south-residences",
@@ -477,7 +515,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-field-residences",
@@ -501,7 +541,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-vine-residences",
@@ -525,7 +567,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-bloom-residences",
@@ -549,7 +593,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-coast-residences",
@@ -573,7 +619,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-shore-residences",
@@ -597,7 +645,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-shore-2-residences",
@@ -621,7 +671,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-shore-3-residences",
@@ -645,7 +697,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-s-residences",
@@ -669,7 +723,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-hill-residences",
@@ -693,7 +749,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-south-2-residences",
@@ -717,7 +775,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-gold-residences",
@@ -741,7 +801,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-sail-residences",
@@ -765,7 +827,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-air-residences",
@@ -789,7 +853,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"high"
   },
   {
     "id":"smdc-glam-residences",
@@ -813,7 +879,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"smdc-jade-residences",
@@ -837,7 +905,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"moderate"
   },
   {
     "id":"dmci-maple-place",
@@ -861,7 +931,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-rhapsody-residences",
@@ -885,7 +957,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-oak-harbor-residences",
@@ -909,7 +983,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-lumiere-residences",
@@ -933,7 +1009,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-maricielo-villas",
@@ -957,7 +1035,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-sonora-garden-residences",
@@ -981,7 +1061,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-one-castilla-place",
@@ -1005,7 +1087,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"low"
   },
   {
     "id":"dmci-torre-de-manila",
@@ -1029,7 +1113,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-sorrel-residences",
@@ -1053,7 +1139,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-anissa-heights",
@@ -1077,7 +1165,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-satori-residences",
@@ -1101,7 +1191,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-la-verti-residences",
@@ -1125,7 +1217,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-royal-palm-residences",
@@ -1149,7 +1243,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-mulberry-place",
@@ -1173,7 +1269,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-prisma-residences",
@@ -1197,7 +1295,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-the-atherton",
@@ -1221,7 +1321,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-mirea-residences",
@@ -1245,7 +1347,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-the-birchwood",
@@ -1269,7 +1373,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-sage-residences",
@@ -1293,7 +1399,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-accolade-place",
@@ -1317,7 +1425,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-fairlane-residences",
@@ -1341,7 +1451,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-ivory-wood",
@@ -1365,7 +1477,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-raya-garden-condominiums",
@@ -1389,7 +1503,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-the-valeron-tower",
@@ -1413,7 +1529,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-zinnia-towers",
@@ -1437,7 +1555,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"low"
   },
   {
     "id":"dmci-the-redwoods",
@@ -1461,7 +1581,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-asteria-residences",
@@ -1485,7 +1607,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-fairway-terraces",
@@ -1509,7 +1633,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-tivoli-garden-residences",
@@ -1533,7 +1659,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-magnolia-place",
@@ -1557,7 +1685,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-viera-residences",
@@ -1581,7 +1711,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-siena-park-residences",
@@ -1605,7 +1737,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-the-oriana",
@@ -1629,7 +1763,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-the-celandine",
@@ -1653,7 +1789,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-flair-towers",
@@ -1677,7 +1815,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-infina-towers",
@@ -1701,7 +1841,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-calathea-place",
@@ -1725,7 +1867,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-alder-residences",
@@ -1749,7 +1893,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-stellar-place",
@@ -1773,7 +1919,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-the-aston-place",
@@ -1797,7 +1945,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-the-calinea-tower",
@@ -1821,7 +1971,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"moderate"
   },
   {
     "id":"dmci-brio-tower",
@@ -1845,7 +1997,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-cameron-residences",
@@ -1869,7 +2023,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-one-delta-terraces",
@@ -1893,7 +2049,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-the-orabella",
@@ -1917,7 +2075,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-kai-garden-residences",
@@ -1941,7 +2101,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-riverfront-residences",
@@ -1965,7 +2127,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"moderate"
   },
   {
     "id":"dmci-the-camden-place",
@@ -1989,7 +2153,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-levina-place",
@@ -2013,7 +2179,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"moderate"
   },
   {
     "id":"dmci-ohana-place",
@@ -2037,7 +2205,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-brixton-place",
@@ -2061,7 +2231,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-the-amaryllis",
@@ -2085,7 +2257,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-illumina-residences-manila",
@@ -2109,7 +2283,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-rosewood-pointe",
@@ -2133,7 +2309,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-the-erin-heights",
@@ -2157,7 +2335,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-east-raya-gardens",
@@ -2181,7 +2361,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-cypress-towers",
@@ -2205,7 +2387,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-allegra-garden-place",
@@ -2229,7 +2413,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-sheridan-towers",
@@ -2253,7 +2439,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-mulberry-place-2",
@@ -2277,7 +2465,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-arista-place",
@@ -2301,7 +2491,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-the-crestmont",
@@ -2325,7 +2517,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"dmci-verawood-residences",
@@ -2349,7 +2543,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"dmci-fortis-residences",
@@ -2373,7 +2569,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"moderate"
   },
   {
     "id":"dmci-mahogany-place-3",
@@ -2397,7 +2595,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"scraped",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"medium",
+    "liquefaction_level":"high"
   },
   {
     "id":"alp-park-terraces",
@@ -2421,7 +2621,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-garden-towers",
@@ -2445,7 +2647,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-park-central-towers",
@@ -2469,7 +2673,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-arbor-lanes",
@@ -2493,7 +2699,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-gardencourt-residences",
@@ -2517,7 +2725,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"low",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-park-villas",
@@ -2541,7 +2751,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-one-serendra",
@@ -2565,7 +2777,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-parklinks-north-and-south-towers",
@@ -2589,7 +2803,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"high",
+    "liquefaction_level":"high"
   },
   {
     "id":"alp-one-vertis-plaza",
@@ -2613,7 +2829,9 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   },
   {
     "id":"alp-the-suites-at-one-bonifacio-high-street",
@@ -2637,6 +2855,8 @@
     "scraped_at":"2026-11-14",
     "price_source":"none",
     "price_as_of":"2026-11-14",
-    "price_note":null
+    "price_note":null,
+    "flood_level":"none",
+    "liquefaction_level":"none"
   }
 ]
